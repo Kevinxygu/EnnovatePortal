@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.section-title {
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-text {
+    float: left;
+}
+.program-date {
+    display: grid;
+    text-align: center;
+    display: flex;           
+    flex-direction: column;    
+    justify-content: center;    
+    align-items: center;
+}
+.program {
+    width: 800px;
+    height: 200px;
+    background-color: #134074;
+    color: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+}
+
+#businessplan{
+    background-color: #13315c
+}
+#rsvp{
+    background-color: #0b2545
+}
+#fincomp{
+    background-color: #8da9c4
+}
+
+.program-date{
+    margin: 10px -5px 0px 10px;
+}
+.timeline-date {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px 30px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.timeline-month {
+    text-align: center;
+    font-size: 23px;
+    margin: 0px 30px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.program-desc {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    float: left;
+    margin : 10px 10px 10px 25px;
+}
+.program-title {
+    font-size: 24px;
+    margin: 40px 30px 5px 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+.program-line {
+    width: 3px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    margin: 50px 10px;
+}

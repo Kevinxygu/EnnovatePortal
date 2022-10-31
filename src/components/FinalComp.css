@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-title {
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 400;
+}
+
+.section-line {
+    margin: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: #d9d9d9;
+}
+
+.content {
+    margin: 30px;
+}
+
+.maintext {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.ennovate-waiting {
+    margin: 0 ;
+    display: block;
+    width: 60%;
+    max-width: 500px;
+    cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-title {
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 400;
+}
+
+.section-line {
+    margin: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: #d9d9d9;
+}
+
+.content {
+    margin: 30px;
+}
+
+#first {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#div1 {
+    width:40%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#div2 {
+    width:40%;
+    float:left;
+    margin-bottom: 20px;
+}
+
+#div3 {
+    width: 60%;
+    float: none;
+}
+
+label {
+    padding: 1rem 0;
+}
+
+.textarea-label {
+    margin: 15px 0px;
+}
+
+form {
+    width: 1000px;
+    padding: 2rem auto;
+}
+
+label {
+    display: block;
+    padding: 1.5rem auto 1rem;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+}
+
+.textarea-label {
+    z-index: 0;
+}
+
+textarea {
+    display: block;
+    width: 600px;
+    height: 400px;
+    resize: none;
+    padding: 1rem auto;
+}
+
+input, textarea {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+    border: none;
+    padding: 1rem auto;
+    z-index: 50;
+    transition: 0.2s ease;
+    box-shadow: 0px 3px 3px rgb(191, 204, 212);
+}
+
+
+input:focus, textarea:focus {
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 4px 3px rgb(56, 133, 181);
+    /*
+    box-shadow: 0px 0px 10px darkblue;
+    border: 2px solid rgb(62, 87, 168);
+    */
+}
+
+#send {
+    cursor:pointer;
+    background-color: rgb(200, 200, 200);
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 18px;
+    border: none;
+    transition: 0.2s ease;
+}
+
+#send:hover {
+    background-color: rgb(62, 87, 168);
+}
