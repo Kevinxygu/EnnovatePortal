@@ -10,14 +10,70 @@ class Timeline extends React.Component {
 
                 
                 <div class="content">
-                   
+
+                    <div class="program" id="selling-period-start">
+                            <div class="program-date">
+                                <h2 class="timeline-month"> Nov</h2>
+                                <h2 class="timeline-date">5</h2>
+                            </div>
+
+                                <div class="program-line"></div>
+                            <div class= "program-text">
+                            <h2 class="program-title">Selling Period</h2>
+                            <p class="program-desc">Selling period begins!</p>    
+    
+                            </div>
+                            </div>
+
+                    
+
+                    <div class="program" id="selling-period-end">
+                            <div class="program-date">
+                                <h2 class="timeline-month"> Jan</h2>
+                                <h2 class="timeline-date">9</h2>
+                            </div>
+
+                                <div class="program-line"></div>
+                            <div class= "program-text">
+                            <h2 class="program-title">Selling Period</h2>
+                            <p class="program-desc"> The end of your selling period! You cannot sell your products anymore after this date. </p>    
+    
+                            </div>
+                            </div>       
+
+                    <div class="program" id="uni-seminar">
+                            <div class="program-date">
+                                <h2 class="timeline-month"> Nov</h2>
+                                <h2 class="timeline-date">12</h2>
+                            </div>
+
+                                <div class="program-line"></div>
+                            <div class= "program-text">
+                            <h2 class="program-title"> University Seminar</h2>
+                            <p class="program-desc"> University seminar at UBC Sauder! Come learn tips and tricks about applying to universities</p>    
+    
+                            </div>
+                            </div>   
+
+                    <div class="program" id="rsvp">
+                        <div class="program-date">
+                            <h2 class="timeline-month"> Jan</h2>
+                            <h2 class="timeline-date">18</h2>
+                        </div>    
+        
+                        <div class="program-line"></div>
+                        <div class= "program-text">
+                        <h2 class="program-title">Final Competition RSVP</h2>
+                        <p class="program-desc">RSVP with this form <a href="url" target="_blank">here</a></p>
+   
+                        </div>
+                        </div> 
+
                     <div class="program" id="microloan">
                         <div class="program-date">
-                            <h2 class="timeline-month"> January</h2>
-                            <h2 class="timeline-date">08</h2>
+                            <h2 class="timeline-month"> Jan</h2>
+                            <h2 class="timeline-date">20</h2>
                         </div>
-
-
 
                             <div class="program-line"></div>
                         <div class= "program-text">
@@ -27,17 +83,11 @@ class Timeline extends React.Component {
                         </div>
                         </div>
 
-
-
-
-
-
                     <div class="program" id="businessplan">
                         <div class="program-date">
-                            <h2 class="timeline-month"> January</h2>
-                            <h2 class="timeline-date">12</h2>
+                            <h2 class="timeline-month"> Jan</h2>
+                            <h2 class="timeline-date">20</h2>
                         </div>
-            
 
                         <div class="program-line"></div>
                         <div class= "program-text">
@@ -48,33 +98,12 @@ class Timeline extends React.Component {
                         </div>
                         </div>
                     
-                    <div class="program" id="rsvp">
-                        <div class="program-date">
-                            <h2 class="timeline-month"> January</h2>
-                            <h2 class="timeline-date">18</h2>
-                        </div>    
-        
-                        <div class="program-line"></div>
-                        <div class= "program-text">
-                        <h2 class="program-title">Final Competition RSVP</h2>
-                        <p class="program-desc">RSVP with this form <a href="url" target="_blank">here</a></p>
-   
-                        </div>
-                        </div>
-                        
-
-
-
-
-
-
-
-                        
+                    
 
                     <div class="program" id="fincomp">
                         <div class="program-date">
-                            <h2 class="timeline-month"> January</h2>
-                            <h2 class="timeline-date">29</h2>
+                            <h2 class="timeline-month"> Jan</h2>
+                            <h2 class="timeline-date">21</h2>
                         </div>
 
                         <div class="program-line"></div>

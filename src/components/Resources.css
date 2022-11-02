@@ -15,6 +15,16 @@
     height: 2px;
     background-color: #d9d9d9;
 }
+.program {
+    width: 800px;
+    height: 200px;
+    background-color: #134074;
+    color: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    margin: -50px -90px -40px -120px;
+    transform: scale(0.7)
+}
 
 .content {
     margin: 30px;
@@ -79,4 +89,11 @@
 
 .program-package:hover {
     box-shadow: 0px 5px 20px rgb(54, 143, 198);
+}
+
+@media screen and (max-width: 620px) {
+    .content {
+        max-width: 100%;
+        overflow: scroll;
+    }
 }

@@ -35,9 +35,13 @@
     font-size: 20px;
     line-height: 27px;
     color: #000000;
-    text-decoration: none;
 }
-a:link {
-    color: #000000;
+
+.email-link {
+    color: black;
+}
+
+a[href^="mailto"] {
+    color: black;
 }
   

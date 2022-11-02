@@ -14,18 +14,18 @@ class Contact extends React.Component {
                         </div>
                         <br></br>
                         <div id="div1">
-                            <label for="name">First Name</label>
-                            <input type="text" name="First Name" id="name"  placeholder="e.g. Kevin" required></input>
+                            <label for="name">Full Name</label>
+                            <input type="text" name="First Name" id="name"  placeholder="Who should we contact?" required></input>
                             <label for="school" id="row1">School</label>
-                            <input type="text" name="School" id="school" placeholder="e.g. Uhill Secondary" required></input>
+                            <input type="text" name="School" id="school" placeholder="Which high school?" required></input>
                         </div>
 
                         
                         <div id="div2">
                             <label for="email">Email</label>
-                            <input type="email" name="Email" id="row2" placeholder="e.g. kevin123@gmail.com" required></input>
+                            <input type="email" name="Email" id="row2" placeholder="e.g. example@email.com" required></input>
                             <label for="teacher">Teacher</label>
-                            <input type="text" name="Teacher" id="row2" placeholder="e.g. Mr. Gu" required></input>
+                            <input type="text" name="Teacher" id="row2" placeholder="Your sponsor teacher" required></input>
                         </div>
 
                         <br></br>

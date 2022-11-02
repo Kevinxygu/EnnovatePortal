@@ -13,19 +13,17 @@ class Guide extends React.Component {
                     <br></br>
                     On the sidebar we have the following pages:
                     <ul class="fontBody">
-                        <li><b>Portal Guide:</b>This page! It details how best to use the Ennovate portal and also what is on each page. If you ever feel lost, just come back here!</li>
+                        <li><b>Portal Guide:</b> This page! It details how best to use the Ennovate portal and also what is on each page. If you ever feel lost, just come back here!</li>
                         <br />
-                        <li><b>Contact Us:</b> Please use this page if you have any questions/concerns while you work on your project. After inputting your informatio we will get back to you as soon as we can!</li>
+                        <li><b>Contact Us:</b> Please use this page if you have any questions/concerns while you work on your project. After inputting your information we will get back to you as soon as we can!</li>
                         <br />
-                        <li><b>Program Timeline:</b> This is a comprehensive page that details each of the deadlines for your project, such as selling petiods, payment deadlines, etc.</li>
+                        <li><b>Program Timeline:</b> This is a comprehensive page that details each of the deadlines for your project, such as selling periods, payment deadlines, etc.</li>
                         <br />
                         <li><b>Project Resources:</b> These resources are here to help you create your business idea. This includes workshop slides, the main program package, and projects from previous years!</li>
                         <br />
                         <li><b>Final Competition:</b> Submit your business proposals here! This also details information about the final competition day. It will open that day, housing information such as judging room information, rubrics and the itinerary!</li>
                     </ul>
-                        <p class="fontBody"> Best of luck! Please reach out to 
-                        <a class="color:#800000;" href="mailto:admin@ennovateubc.org"> admin@ennovateubc.org for any further questions or concerns!</a>
-                        </p>
+                        <p class="fontBody"> Best of luck! Please reach out to <a href="mailto:admin@ennovateubc.org" style={{color: "#000000", fontWeight: "600", textDecoration: "none"}}>admin@ennovateubc.org</a> for any further questions or concerns!</p>
                     </p>
                 </div>
             </div>

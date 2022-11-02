@@ -33,6 +33,20 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 620px) {
+    .section-title {
+        font-size: 12px;
+        text-align: center;
+        margin: auto;
+        display: block;
+        font-weight: 300;
+    }
+
+    .section-line {
+        display: none;
+    }
+}
+
 
 
 
