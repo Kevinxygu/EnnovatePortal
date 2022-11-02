@@ -11,7 +11,7 @@ class Resources extends React.Component {
                 <h2 class="section-title">Resources</h2>
                 <div class="section-line"></div>
                 <div class="content">
-                    <p class="description">Posted here are resources to help you with your business plan:</p>
+                    <p class="description">Posted here are resources to help you with your business plan :</p>
                     <h2 class="heading">Workshop Slides</h2>
                     <div class="grid">
                         <div class="workshop">
@@ -43,6 +43,7 @@ class Resources extends React.Component {
                             <p class="workshop-name">TBH School Plan Title</p>
                         </div>
                     </div>
+
 
                 </div>
             </div>
