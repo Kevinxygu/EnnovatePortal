@@ -15,16 +15,6 @@
     height: 2px;
     background-color: #d9d9d9;
 }
-.program {
-    width: 800px;
-    height: 200px;
-    background-color: #134074;
-    color: #ffffff;
-    border-radius: 40px;
-    display: flex;
-    margin: -50px -90px -40px -120px;
-    transform: scale(0.7)
-}
 
 .content {
     margin: 30px;
@@ -44,7 +34,7 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 250px 250px 25px;
+    grid-template-columns: 250px 250px 250px;
     column-gap: 20px;
 }
 .workshop {
@@ -91,9 +81,59 @@
     box-shadow: 0px 5px 20px rgb(54, 143, 198);
 }
 
+.school-name {
+    color: #000000;
+}
+
 @media screen and (max-width: 620px) {
     .content {
         max-width: 100%;
         overflow: scroll;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 175px 175px;
+        column-gap: 15px;
+    }
+
+    .workshop {
+        max-width: 175px;
+        max-height: 175px;
+        margin: 7.5px 0px;
+    }
+
+    .heading {
+        font-weight: 500;
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+
+    .program-package {
+        width: 250px;
+        border-radius: 15px;
+        transition: 0.2s ease box-shadow;
+    }
+
+    .workshop:hover {
+        box-shadow: none;
+    }
+
+    .program-package:hover {
+        box-shadow: none;
+    }
+
+    .workshop-name {
+        bottom: 5px;
+        left: 15px;
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    #example-schools {
+        margin-bottom: 80px;
     }
 }

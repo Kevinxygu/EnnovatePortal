@@ -44,4 +44,23 @@
 a[href^="mailto"] {
     color: black;
 }
-  
+
+@media screen and (max-width: 620px) {
+    .content {
+        max-width: 100%;
+        overflow: scroll;
+    }
+
+    .fontBody {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        color: #000000;
+    }
+    
+
+
+
+}

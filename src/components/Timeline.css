@@ -28,7 +28,7 @@ a:link {
     flex-direction: column;    
     justify-content: center;    
     align-items: center;
-    margin: 0px 30px;
+    margin: 0px 40px;
 }
 .program {
     width: 800px;
@@ -41,28 +41,46 @@ a:link {
     transform: scale(0.7)
 }
 
-#businessplan{
-    background-color: #13315c
+#sellingPeriod{
+    background-color: #130047;
 }
+
+#sellingPeriod2{
+    background-color: #352665;
+}
+
+#universitySeminar{
+    background-color: #574D83;
+}
+
 #rsvp{
-    background-color: #0b2545
+    background-color: #7973a2;
 }
-#fincomp{
-    background-color: #8da9c4
+
+#microloan{
+    background-color: #9B99C0;
+}
+
+#businessPlan{
+    background-color: #BDC0DE;
+}
+
+#finComp{
+    background-color: #DFE6FC;
 }
 
 
 .timeline-date {
     text-align: center;
     font-size: 60px;
-    margin: 0px 30px;
+    margin: 0px;
     display: flex;
     font-family: 'Open Sans', sans-serif;
 }
 .timeline-month {
     text-align: center;
     font-size: 23px;
-    margin: 0px 30px;
+    margin: 0px;
     display: flex;
     font-family: 'Open Sans', sans-serif;
 }
@@ -88,4 +106,10 @@ a:link {
     background-color: #ffffff;
     border-radius: 100px;
     margin: 50px 0px;
+}
+@media screen and (max-width: 620px) {
+    .program {
+        transform: scale(0.5);
+        margin: -40px -90px -60px -120px;
+    }
 }

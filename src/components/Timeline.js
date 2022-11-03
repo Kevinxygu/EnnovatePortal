@@ -11,10 +11,10 @@ class Timeline extends React.Component {
                 
                 <div class="content">
 
-                    <div class="program" id="selling-period-start">
+                    <div class="program" id="sellingPeriod">
                             <div class="program-date">
                                 <h2 class="timeline-month"> Nov</h2>
-                                <h2 class="timeline-date">5</h2>
+                                <h2 class="timeline-date">05</h2>
                             </div>
 
                                 <div class="program-line"></div>
@@ -27,10 +27,10 @@ class Timeline extends React.Component {
 
                     
 
-                    <div class="program" id="selling-period-end">
+                    <div class="program" id="sellingPeriod2">
                             <div class="program-date">
                                 <h2 class="timeline-month"> Jan</h2>
-                                <h2 class="timeline-date">9</h2>
+                                <h2 class="timeline-date">09</h2>
                             </div>
 
                                 <div class="program-line"></div>
@@ -41,7 +41,7 @@ class Timeline extends React.Component {
                             </div>
                             </div>       
 
-                    <div class="program" id="uni-seminar">
+                    <div class="program" id="universitySeminar">
                             <div class="program-date">
                                 <h2 class="timeline-month"> Nov</h2>
                                 <h2 class="timeline-date">12</h2>
@@ -83,7 +83,7 @@ class Timeline extends React.Component {
                         </div>
                         </div>
 
-                    <div class="program" id="businessplan">
+                    <div class="program" id="businessPlan">
                         <div class="program-date">
                             <h2 class="timeline-month"> Jan</h2>
                             <h2 class="timeline-date">20</h2>
@@ -100,7 +100,7 @@ class Timeline extends React.Component {
                     
                     
 
-                    <div class="program" id="fincomp">
+                    <div class="program" id="finComp">
                         <div class="program-date">
                             <h2 class="timeline-month"> Jan</h2>
                             <h2 class="timeline-date">21</h2>
