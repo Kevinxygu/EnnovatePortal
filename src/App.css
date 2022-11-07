@@ -269,6 +269,11 @@ body {
     margin: 30px;
 }
 
+
+#enactusLogo {
+    max-width: 150px;
+    margin: 5px;
+}
 footer {
     background-color:rgb(06, 22, 52);
     color: white;
@@ -705,7 +710,7 @@ footer {
 
     #enactusLogo {
         max-width: 190px;
-        width: 190px !important;
+        width: 190px;
         transform: translateX(-25px);
     }
 
