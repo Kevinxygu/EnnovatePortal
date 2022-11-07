@@ -101,7 +101,7 @@ class App extends React.Component {
                     <h1 class="intro-header"><strong>What is Enactus UBC?</strong></h1>
                     <p class="blurb">Enactus is a global, student-led organization dedicated to enacting positive social change through the lens of entrepreneurship.
              We crave to see improvements in the community, and are passionate facilitators who help make them happen. We know that together, we can and will make a 
-             difference this year and in future years to come.  <a href="https://www.enactusubc.ca/" target="_blank">Enactus UBC</a> is home to a team of over 100 students who collaborate to develop unique projects to serve our campus and community, 
+             difference this year and in future years to come.  <a href="https://www.enactusubc.ca/" target="_blank" style={{color: "#000000", textDecoration: "underline"}}><b>Enactus UBC</b></a> is home to a team of over 100 students who collaborate to develop unique projects to serve our campus and community, 
              further driving the Enactus mission.
                     </p>
                 </div>
@@ -138,7 +138,7 @@ class App extends React.Component {
                 <div class="sponsors">
                     <h1 class="sponsor-header"><strong>Affiliated with...</strong></h1>
                     <div class="sponsor-logos">
-                        <a target="_blank" href="https://enactusubc.ca"><img class="sponsor" src={require("./assets/images/Enactus UBC.png")}></img></a>
+                        <a target="_blank" href="https://enactusubc.ca"><img class="sponsor" id="enactusLogo" src={require("./assets/images/Enactus UBC.png")}></img></a>
                         <img class="sponsor" style={{maxWidth: "100px"}} src={require("./assets/images/ubc-logo.png")}></img>
                         <img class="sponsor" style={{maxWidth: "100px"}} src={require("./assets/images/AMS-Logo-Square-o4hkwugu21b6jwb0jidkkle865qhdj550p6xw97ev4.png")}></img>
                     </div>

@@ -703,6 +703,12 @@ footer {
         width: 100px;
     }
 
+    #enactusLogo {
+        max-width: 190px;
+        width: 190px !important;
+        transform: translateX(-25px);
+    }
+
     /* Portal CSS */
     .ennovate-build {
         max-width: 300px;
