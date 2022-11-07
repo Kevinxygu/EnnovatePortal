@@ -38,9 +38,14 @@ a:link {
     align-items: center;
     margin: 0px 40px;
 }
+
+.content {
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
 .program {
     width: 800px;
-    height: 200px;
+    height: 180px;
     background-color: #134074;
     color: #ffffff;
     border-radius: 40px;

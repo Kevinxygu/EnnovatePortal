@@ -111,8 +111,8 @@ class Timeline extends React.Component {
                         <p class="program-desc">Final competitiond day! Get ready to present, business <br /> casual and monitor the "Final Competition" tab</p>
    
                         </div>
-                        </div>
-                        </div>
+                    </div>
+                </div>
 
                 
             </div>   
