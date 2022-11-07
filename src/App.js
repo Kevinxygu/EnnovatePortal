@@ -195,6 +195,13 @@ class App extends React.Component {
                     </div>
 
                     <div class="member block">
+                        <h1 class="person-name">Melissa Nguyen</h1>
+                        <p class="person-title">External Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Melissa-Nguyen.jpeg")}></img>
+                    </div>
+
+                    <div class="member block">
                         <h1 class="person-name">Ashley Liu</h1>
                         <p class="person-title">External Manager</p>
                         <div class="person-gradient"></div>
