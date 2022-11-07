@@ -1,5 +1,6 @@
 import Portal from "./components/Portal.js";
 import React from "react";
+import FinalCompCounter from "./components/FinalCompCounter.js";
 import "./App.css";
 
 class App extends React.Component {
@@ -150,6 +151,255 @@ class App extends React.Component {
             <div class="teamPage">
                 {header}
                 {mobileMenu}
+                <div class="team-members section">
+                    <div class="member block">
+                        <h1 class="person-name">Tiya Tanaka</h1>
+                        <p class="person-title">Project Director</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Tiya-Tanaka.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Euna Ao</h1>
+                        <p class="person-title">Project Director</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Euna-Ao.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Topher So</h1>
+                        <p class="person-title">Logistics Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Topher-So.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Patrick Kim</h1>
+                        <p class="person-title">Logistics Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Patrick-Kim.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Arisha Ahmed</h1>
+                        <p class="person-title">Mentorship Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Arisha.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Carina Koo</h1>
+                        <p class="person-title">Internal Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Carina-Koo.png")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Ashley Liu</h1>
+                        <p class="person-title">External Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Ashley-Liu.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Kevin Gu</h1>
+                        <p class="person-title">Technology Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Kevin-photo.jpg")}></img>
+                    </div>
+
+
+                    <div class="member block">
+                        <h1 class="person-name">Kimi Ho</h1>
+                        <p class="person-title">Content Creation Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Kimi-Ho.jpeg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Khushi Dhand</h1>
+                        <p class="person-title">Marketing Manager</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Khushi-Dhand.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Amanda Sam</h1>
+                        <p class="person-title">Ennovate Advisor</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Amanda-Sam.jpg")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Ryu Watanabe</h1>
+                        <p class="person-title">Ennovate Advisor</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Ryu-Watanabe.jpg")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Stephanie Cao</h1>
+                        <p class="person-title">Technology Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Stephanie-Cao.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Jay Park</h1>
+                        <p class="person-title">Technology Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Jay-Park.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">David Kou</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/David-Kou.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Emily Chu</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Emily-Chu.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Felix Li</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Felix-Li.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Alton Hsu</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Alton-Hsu.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Austin Cu</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Austin-Cu.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Christopher Le</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Chris-Le.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Curtis Yang</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Curtis-Yang.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Garrett Chu</h1>
+                        <p class="person-title">Internal Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Garrett-Chu.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Hannah Azad</h1>
+                        <p class="person-title">Marketing Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Hannah-Azad.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Jenny Lan</h1>
+                        <p class="person-title">Internal Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Jenny-Lan.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Jonathan Li</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Jonathan-Li.PNG")}></img>
+                    </div> 
+                    <div class="member block">
+                        <h1 class="person-name">Jose Pablo Villagomez</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Jose-Pablo.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Kesar Mehta</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Kesar-Mehta.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Kelly Fang</h1>
+                        <p class="person-title">Marketing Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Kelly-Fang.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Kesar Mehta</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Kesar-Mehta.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Lucy Zhu</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Lucy-Zhu.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Linh Vu</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Linh-Vu.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Olivia Chung</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Olivia Chung.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Paige Bindley</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Paige-Bindley.PNG")}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Rawan Ahmed</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Rawan-Ahmad.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Reagan Leung</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Reagan-Leung.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Shiv Kala</h1>
+                        <p class="person-title">Project Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Shiv-Kala.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Penny Pang</h1>
+                        <p class="person-title">Logistics Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Penny-Pang.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Sofia/Sammie Ocampo</h1>
+                        <p class="person-title">Marketing Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Sammie-Ocampo.PNG")}></img>
+                    </div>
+                    <div class="member block">
+                        <h1 class="person-name">Steven Vo</h1>
+                        <p class="person-title">Logistics Associate</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Steven-Vo.PNG")}></img>
+                    </div>
+                </div>
                 {footer}
             </div>
         )
@@ -158,6 +408,17 @@ class App extends React.Component {
             <div class="finalComp">
                 {header}
                 {mobileMenu}
+                <FinalCompCounter />
+
+                <h1 style={{textAlign: "center", zIndex: "50"}} class="final-comp-blurb"><strong>Until final comp on Jan. 21, 2023! Check the portal when that happens</strong></h1>
+
+
+                <div class="ennovate-sleep">
+                    <img src={require("./assets/ENNOVATESLEEP.gif")} alt="Ennovate logo" class="ennovate-gif"></img>
+                    <div class="inner">
+                        <img class="ennovate-wake" src={require("./assets/images/ENNOVATE-WAKE.png")}></img>
+                    </div>
+                </div>
                 {footer}
             </div>
         )

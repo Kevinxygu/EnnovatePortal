@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.countdown {
+    padding-top: 77px;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+
+.time-block {
+    background-color: #dbeeff;
+    border-radius: 35px;
+    text-align: center;
+    margin: 15px;
+    padding: 0px 75px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.date-time {
+    font-size: 20px;
+}
+
+.time-block {
+    padding: 20px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 1070px) {
+    .date-time {
+        font-size: 50px;
+    }
+
+    .time-block {
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .date-time {
+        font-size: 20px;
+    }
+
+    .time-block {
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .time-length {
+        font-size: 10px;
+    }
+}
