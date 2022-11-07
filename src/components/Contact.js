@@ -8,7 +8,7 @@ class Contact extends React.Component {
                 <h2 class="section-title">Contact Us</h2>
                 <div class="section-line"></div>
                 <div class="content">
-                    <form action ="results.html" method="GET"> 
+                    <form action="https://formsubmit.co/ennovateprogram@gmail.com" method="POST"> 
                         <div id="first">
                             <text>After providing the following information, we'll reach out to you through the provided email!</text>
                         </div>

@@ -7,20 +7,28 @@
     transform: scale(0.7)
 }
 
+.section-line {
+    margin: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: #d9d9d9;
+}
+
 a:link {
     color: white;
     background-color: transparent;
     text-decoration: underline;
 }
 .section-title {
-    padding-bottom: 10px;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .section-text {
     float: left;
 }
+
 .program-date {
     display: grid;
     text-align: center;
@@ -46,11 +54,11 @@ a:link {
 }
 
 #sellingPeriod2{
-    background-color: #352665;
+    background-color: #574D83;
 }
 
 #universitySeminar{
-    background-color: #574D83;
+    background-color: #352665;
 }
 
 #rsvp{
@@ -63,10 +71,12 @@ a:link {
 
 #businessPlan{
     background-color: #BDC0DE;
+    color: #303030;
 }
 
 #finComp{
     background-color: #DFE6FC;
+    color: #303030;
 }
 
 
@@ -107,9 +117,14 @@ a:link {
     border-radius: 100px;
     margin: 50px 0px;
 }
+
 @media screen and (max-width: 620px) {
     .program {
         transform: scale(0.5);
-        margin: -40px -90px -60px -120px;
+        margin: -30px -150px -80px -150px;
+    }
+    
+    .content {
+        margin-bottom: 100px;
     }
 }

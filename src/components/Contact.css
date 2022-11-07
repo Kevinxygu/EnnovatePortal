@@ -50,7 +50,7 @@ label {
 }
 
 form {
-    width: 1000px;
+    width: 90%;
     padding: 2rem auto;
 }
 
@@ -69,10 +69,10 @@ input {
 
 textarea {
     display: block;
-    width: 600px;
-    height: 400px;
-    resize: none;
+    width: 120%;
+    height: 300px;
     padding: 1rem auto;
+    resize: none;
 }
 
 input, textarea {
@@ -112,4 +112,41 @@ input:focus, textarea:focus {
 #send:hover {
     background-color: rgb(62, 87, 168);
     color: #ffffff;
+}
+
+@media screen and (max-width: 1070px) {
+    #div1 {
+        width: 100%;
+        float:none;
+
+    }
+
+    #div2 {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    form {
+        max-width: 600px;
+    }
+
+    #div3 {
+        width: 100%;
+        float: none;
+    }
+
+    textarea {
+        width: 80%;
+        height: 100px;
+    }
+
+    #send {
+        float: left;
+    }
+
+    input {
+        height: 30px;
+    }
 }

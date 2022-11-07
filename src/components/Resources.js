@@ -29,10 +29,14 @@ class Resources extends React.Component {
                             <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 2</p>
                         </div>
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/11waLtu69OHVIHf4laKraM-Idivqip7UL/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 3</p>
+                        </div>
                     </div>
 
                     <h2 class="heading">Program Package</h2>
-                    <a href="https://drive.google.com/file/d/1XxbNWIC7e0IDRhkndLtucyTqfTaHh0ns/view?usp=sharing" target="_blank"><img src={ProgramPackage} class="program-package"></img></a>
+                    <a href="https://drive.google.com/file/d/1n9ldHMlfexIGxkY1WiOiWoQxNnsi4v9B/view" target="_blank"><img src={ProgramPackage} class="program-package"></img></a>
 
                     <h2 class="heading">Grading Rubric</h2>
                     <a href="https://drive.google.com/file/d/1F6Kv1okCEdiH1qpFKfHGnhp6to85HD1x/view?usp=sharing" target="_blank"><img src={Rubric} class="program-package"></img></a>
@@ -42,28 +46,28 @@ class Resources extends React.Component {
 
                     <div class="grid" id="example-schools">
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1o7tNhIDX7wK8Ac338foKoh7K68BbhI4o/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPGoatSoap}></img></a>
-                            <p class="workshop-name school-name">Hamber: Goat Soap</p>
+                            <a href="https://drive.google.com/file/d/1xAGcZtx-sEpfnEXXeCSyO2slQb6B83p2/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPGoatSoap}></img></a>
+                            <p class="workshop-name school-name" style={{color: "#000000"}}>Hamber: Goat Soap</p>
                         </div>
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={XpJardenings}></img></a>
+                            <a href="https://drive.google.com/file/d/1vc2g-5PBGTwww0PFFxh9u_ryJlTxE4Cc/view?usp=sharing" target="_blank"><img class="workshop-img" src={XpJardenings}></img></a>
                             <p class="workshop-name school-name">Holy Cross: Jardenings</p>
                         </div>
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPTotesation}></img></a>
+                            <a href="https://drive.google.com/file/d/1l1HO5rJnxnl-NEFOnC8PPCHS6nqFWMLN/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPTotesation}></img></a>
                             <p class="workshop-name school-name">Killarney: Totesational</p>
                         </div>
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPMindlight}></img></a>
+                            <a href="https://drive.google.com/file/d/1eF-UU4BCRwP7hG59TztOFB0J58XwPMp1/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPMindlight}></img></a>
                             <p class="workshop-name school-name">Magee: Mindlights</p>
                         </div>
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPTidalRings}></img></a>
-                            <p class="workshop-name school-name">Prince of Wales: Tidal Rings</p>
+                            <a href="https://drive.google.com/file/d/1mxI4-8OieKUue4JML2DEFJFPricyDBrs/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPTidalRings}></img></a>
+                            <p class="workshop-name school-name">Prince of Wales: <br />Tidal Rings</p>
                         </div>
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPWaves}></img></a>
-                            <p class="workshop-name school-name">Prince of Wales: Waves</p>
+                            <a href="https://drive.google.com/file/d/15MOVjgNkTz1Jj4d7rgNG3j7-VhBOuavI/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPWaves}></img></a>
+                            <p class="workshop-name school-name" style={{color: "#000000"}}>Prince of Wales: Waves</p>
                         </div>
                         
                     </div>

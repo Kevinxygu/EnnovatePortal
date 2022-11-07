@@ -1,128 +1,822 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-* {
-  font-family: 'Open Sans', sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
-.App {
-  float: left;
-  display: flex;
+body {
+    margin: 0;
+    padding: 0;
+    color: #1a1c20;
+    background-color: #ffffff;
+    font-family:'Open Sans', sans-serif;
 }
 
-.sidebar {
-  text-align: center;
-  width: 263px;
-  height: 100vh;
-  background-color: #264080;
-  position: sticky;
-  left: 0px;
-  top: 0px;
-}
-
-.Ennovate-logo {
-  width: 60px;
-  margin: 25px;
-}
-
-.return-button {
-  width: 263px;
-  height: 60px;
-  background-color: #2d5898;
-  display: inline;
-  text-decoration: none;
-  align-items: center;
-  border: none;
-  padding: 15px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.return-button:hover {
-  background-color: #5985c7;
-}
-
-.return-arrow {
-  max-width: 15px;
-  display: block;
-  margin: auto;
-}
-
-.return-link {
-  text-decoration: none;
-}
-
-.section-links {
-  align-items: left;
-  margin: 25px 0px;
-}
-
-.section-link {
-  display: flex;
-  margin: 5px 25px;
-  padding: 0px 15px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  background-color: #264080;
-}
-
-.section-link:hover {
-  background-color: #2c4a95 !important;
-}
-
-.link-icon {
-  width: 20px;
-  align-self: center;
-}
-
-.link-text {
-  color: #ffffff;
-  padding: 0px 10px;
-  transition: 0.3s ease;
-  margin: 10px 5px;
-  text-align: left;
-}
-
-.content-container {
-  margin-left: 15px;
-  margin-right: 100px;
-}
-
-.mobile-sidebar {
-  display: none;
-}
-
-@media screen and (max-width: 620px) {
-  .link-text {
-    color: aqua;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .mobile-sidebar {
-    display: flex;
-    width: 100%;
-    height: 80px;
-    background-color:#264080;
+.header {
+    background-color: black;
     position: fixed;
-    bottom: 0px;
-    z-index: 5;
+    width: 100%;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-flow: row nowrap;
+    z-index: 100;
+}
+
+.header-links {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 12px;
+    margin-left: auto;
+    z-index: 101;
+}
+
+.header-logo {
+    max-height: 70px;
+    padding-left: 15px;
+    z-index: 101;
+    cursor: pointer;
+}
+
+.header-link {
+    color: white;
+    margin: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.3s ease;
+    z-index: 101;
+    cursor: pointer;
+}
+
+.header-link:hover {
+    color: rgb(156, 156, 156);
+}
+
+.header-link .header-button {
+    border-style: solid;
+    border-radius: 70px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px 35px;
+    transition: 0.3s ease;
+    border-radius: 70px;
+    border-width: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-link .header-button:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.hero {
+    margin-top: 77px;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.background-image {
+    width: 100%;
+}
+
+.background-mobile-image {
+    max-width: 100%;
+    display: none;
+}
+
+.center-top-text {
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-35%, -30%);
+    font-weight: 100;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+    width: 100%;
+}
+
+.center-Ennovate {
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+    transition: 0.5s ease;
+    cursor: grab;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.center-Ennovate:hover {
+    text-shadow: 5px 5px 25px #fffa62;
+}
+
+.intro-header {
+    font-size: 39px;
+}
+.introduction {
+    margin: auto;
+    text-align: center;
+    padding: 30px 0% 20px 0%;
+    justify-content: center;
+}
+
+.blurb {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 25%;
+}
+
+.semester-stats {
+    background-image: url("./assets/images/SEMESTER-STATS.png");
+    margin: auto;
+    max-width: 100%;
+    padding: 80px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.semester-stat {
+    color: white;
+    padding: 35px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.semester-stat:hover {
+    text-shadow: 5px 1px 10px #32adcc;
+}
+
+.big-number {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.stat {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.project-slideshow {
+    margin: auto;
+    align-items: center;
+}
+
+.projects-blurb {
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.school-project {
+    display: none;
+    width: 500px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.teacher-contact {
+    text-align: center;
+    margin: 55px 15px;
+}
+
+.teacher-button {
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color:#4886f4;
+    color: #ffffff;
+    margin: 15px 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.teacher-button:hover {
+    background-color: #0e4096;
+    border-radius: 30px;
+}
+
+.sponsors {
+    background-color: rgb(218, 218, 218);
+    padding: 50px;
+    margin: 70px 0px 0px 0px;
+    text-align: center;
+    align-items: center;
+    max-width: 95%;
+}
+
+.sponsor-logos {
+    display: flex;
+    margin: auto;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .mobile-icon {
-    max-width: 23px;
-    align-self: center;
-    margin: 2%;
-    padding: 12px;
+.sponsor {
+    max-width: 200px;
+    margin: 30px;
+}
+
+footer {
+    background-color:rgb(06, 22, 52);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 55px 30px 55px;
+}
+
+.bottom-row {
+    justify-content: space-between;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-link {
+    max-width: 30px;
+    margin: 5px;
+}
+
+/* Starting from here is the CSS code for final-comp.html */
+
+.countdown {
+    padding-top: 77px;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+
+.time-block {
+    background-color: #dbeeff;
+    border-radius: 35px;
+    text-align: center;
+    margin: 15px;
+    padding: 0px 75px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.date-time {
+    font-size: 70px;
+}
+
+.ennovate-sleep {
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    max-width: 500px;
     cursor: pointer;
-    border-radius: 15px;
-  }
+}
 
-  .content-container {
+.ennovate-gif {
+    max-width: 500px;
+}
+
+.inner {
+    position: absolute;
+    top: 465px;
+    z-index: 30;
+    display: none;
+}
+.ennovate-wake {
+    max-width: 500px;
+    z-index: 30;
+}
+
+.ennovate-sleep:hover .inner {
+    display: block;
+}
+
+.final-comp-blurb {
+    font-size: 20px;
+}
+
+.final-comp-link {
+    width: 500px;
     margin: auto;
-  }
+    align-items: center;
+}
+.final-comp-button {
+    cursor: pointer;
+    background-color: rgb(06, 22, 52);
+    color: white;
+    padding: 10px 35px;
+    transition: 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 15px 50px;
+    margin: 50px;
+    border-width: 0px;
+}
+
+.final-comp-button:hover {
+    border-radius: 70px;
+    background-color: rgb(191, 28, 69);
+    color: rgb(06, 22, 52);
+    box-shadow: none;
+    border-width: 0px;
+}
+/* Team member CSS starts here */
+
+.section {
+    padding: 0 15% 0 10%;
+    margin: auto;
+}
+
+.block {
+    position: relative;
+    border-radius: 25px;
+}
+
+.team-members {
+    margin: 120px 0;
+    padding: 0 10% 0 10%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    column-gap: 30px;
+    justify-content: center;
+}
+  
+.member {
+    height: 250px;
+    width: 250px;
+    background: #5e89ff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out box-shadow;
+    overflow: hidden;
+    margin: 25px;
+}
+  
+.member:hover {
+    box-shadow: 10px 10px 15px -3px #5e89ff;
+}
+
+.person-contact {
+    display: none;
+}
+  
+.person-name {
+    font-weight: 500;
+    bottom: 25px;
+    left: 25px;
+    position: absolute;
+    color: white;
+    z-index: 50;
+    font-size: 25px;
+}
+
+.person-title {
+    font-weight: 200;
+    bottom: 10px;
+    left: 25px;
+    position: absolute;
+    color: white;
+    z-index: 50;
+    font-size: 15px;
+}
+  
+.person-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    -webkit-box-shadow: 7px 6px 20px 4px rgba(0, 0, 0, 0.08);
+    box-shadow: 7px 6px 20px 4px rgba(0, 0, 0, 0.08);
+}
+  
+.person-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(16, 32, 45, 0) 50%, #4886f4);
+    transition: 1s ease;
+    border-radius: 1%;
+    z-index: 2;
+}
+
+/* Styles for the temporary portal page */
+
+.ennovate-build {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 77px;
+    align-self: center;
+}
+
+.portal-description {
+    padding: 30px 15%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Mobile version items, especially the navbar */
+
+.mobile-header {
+    display: none;
+}
+
+
+#mobile-header-links {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .portal-description {
+        color: black;
+    }
+}
+
+/* Tablet size */
+
+@media screen and (max-width: 1070px) {
+
+    /* Main page */
+    .center-Ennovate {
+        font-size: 50px;
+    }
+
+    .center-top-text {
+        font-size: 20px;
+    }
+
+    .blurb {
+        font-size: 20px;
+    }
+
+    
+    .introduction {
+        padding: 5px;
+    }
+
+    .intro-header {
+        font-size: 35px;
+    }
+
+    .big-number {
+        font-size: 35px;
+    }
+
+    .stat {
+        font-size: 15px;
+    }
+
+    .projects-blurb {
+        font-size: 25px;
+    }
+
+    .sponsor {
+        max-width: 150px;
+    }
+
+    /* Final Comp Page */
+
+    .date-time {
+        font-size: 50px;
+    }
+
+    .time-block {
+        padding: 0px 50px;
+    }
+
+    .inner {
+        position: absolute;
+        top: 373px;
+        z-index: 30;
+        display: none;
+    }
+
+    .final-comp-blurb {
+        font-size: 15px;
+    }
+
+    /* Our team page */
+    .team-members {
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+    }
+
+    .member {
+        height: 200px;
+        width: 200px;
+    }
+
+    .person-name {
+        font-size: 20px;
+    }
+
+    .person-title {
+        font-size: 12px;
+    }
+
+
+}
+
+/* Phone size */
+@media screen and (max-width: 620px) {
+    footer {
+        padding: 10px 55px 10px 55px;
+    }
+
+    .social-media-link {
+        max-width: 20px;
+    }
+
+    .back-to-top {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .wholesome-message {
+        font-size: 20px;
+    }
+    .header {
+        display: none;
+    }
+
+    .mobile-header {
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height: 77px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        flex-flow: row nowrap;
+        z-index: 100;
+    }
+
+    .mobile-icon-button {
+        max-width: 35px;
+        margin: 20px;
+    }
+
+    #mobile-header-links {
+        display: none;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        top: 77px;
+    }
+
+    .mobile-header-link {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        background-color:rgb(06, 22, 52);
+        padding: 25px;
+        text-decoration: none;
+        display: block;
+        width: 150%;
+        font-weight: lighter;
+        transition: 0.3s ease;
+    }
+
+    .mobile-header-link:hover {
+        color: rgb(156, 156, 156);
+        background-color:rgb(25, 51, 100);
+
+    }
+
+    .background-image {
+        display: none;
+    }
+
+    .background-mobile-image {
+        display: inline;
+    }
+
+    .intro-header {
+        font-size: 20px;
+    }
+
+    .blurb {
+        font-size: 15px;
+        padding: 5px 10%;
+    }
+
+    .semester-stats {
+        /* background-image: url("assets/images/SPONSOR-BACKGROUND-LONG.png"); */
+        margin: auto;
+        max-width: 100%;
+        padding: 80px 20px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        margin-bottom: 50px;
+    }
+
+    .big-number {
+        font-size: 60px;
+    }
+
+    .stat {
+        font-size: 25px;
+    }
+
+    .projects-blurb {
+        font-size: 15px;
+    }
+
+    .school-project {
+        max-width: 300px;
+    }
+
+    .sponsor-logos {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sponsor-header {
+        font-size: 25px;
+    }
+
+    .sponsor {
+        width: 100px;
+    }
+
+    /* Portal CSS */
+    .ennovate-build {
+        max-width: 300px;
+    }
+
+    .portal-description {
+        font-size: 20px;
+    }
+
+    /* Final comp CSS */
+
+    .date-time {
+        font-size: 20px;
+    }
+
+    .time-block {
+        padding: 20px;
+        margin: 5px;
+    }
+    .ennovate-gif {
+        max-width: 250px;
+    }
+
+    .inner {
+        top: 270px;
+    }
+    
+    .ennovate-wake {
+        max-width: 250px;
+    }
+
+    .time-length {
+        font-size: 10px;
+    }
+
+    .final-comp-blurb {
+        font-size: 10px;
+    }
+
+    /* Our team page */
+
+    .section {
+        padding: 0 10% 0 5%;
+        margin: auto;
+    }
+    
+    .block {
+        position: relative;
+        border-radius: 25px;
+    }
+    
+    .team-members {
+        margin: 80px 0;
+        grid-template-columns: 150px 150px;
+        column-gap: 15px;
+    }
+      
+    .member {
+        height: 150px;
+        width: 150px;
+        margin: 25px;
+    }
+      
+    .member:hover {
+        box-shadow: 8px 8px 7px -3px #5e89ff;
+    }
+      
+    .person-name {
+        font-weight: 500;
+        bottom: 25px;
+        left: 15px;
+        position: absolute;
+        color: white;
+        z-index: 50;
+        font-size: 15px;
+    }
+    
+    .person-title {
+        font-weight: 200;
+        bottom: 10px;
+        left: 15px;
+        position: absolute;
+        color: white;
+        z-index: 50;
+        font-size: 10px;
+    }
+      
+    .person-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+        -webkit-box-shadow: 7px 6px 20px 4px rgba(0, 0, 0, 0.08);
+        box-shadow: 7px 6px 20px 4px rgba(0, 0, 0, 0.08);
+    }
+      
+    .person-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(16, 32, 45, 0) 50%, #4886f4);
+        transition: 1s ease;
+        border-radius: 1%;
+        z-index: 2;
+    }
+
+
+}
+
+@media screen and (max-width: 381px) {
+    .center-Ennovate {
+        font-size: 35px;
+    }
 }

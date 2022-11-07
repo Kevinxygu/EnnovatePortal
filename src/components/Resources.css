@@ -82,7 +82,21 @@
 }
 
 .school-name {
-    color: #000000;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1070px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        column-gap: 15px;
+    }
+
+    .workshop {
+        height: 200px;
+        width: 200px;
+        margin: 7.5px 0px;
+    }
 }
 
 @media screen and (max-width: 620px) {
