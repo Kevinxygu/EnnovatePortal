@@ -63,7 +63,7 @@ class Portal extends React.Component {
       <div class="App">
         <div class="sidebar">
           <img src={EnnovateLogoW} class="Ennovate-logo"></img>
-          <a href="https://ennovateubc.org/" class="return-link">
+          <a href="https://ennovatemonkeymode.netlify.app/" class="return-link">
             <button class="return-button">
               <img src={BackArrow} class="return-arrow"></img>
             </button>
