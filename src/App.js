@@ -274,7 +274,7 @@ class App extends React.Component {
                         <img class="person-img" src={require("./assets/team-members/Felix-Li.PNG")}></img>
                     </div> 
                     <div class="member block">
-                        <h1 class="person-name">Alton Hsu</h1>
+                        <h1 class="person-name">Alston Hsu</h1>
                         <p class="person-title">Project Associate</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Alton-Hsu.PNG")}></img>
