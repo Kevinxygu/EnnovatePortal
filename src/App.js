@@ -155,6 +155,7 @@ class App extends React.Component {
                     <div class="member block">
                         <h1 class="person-name">Tiya Tanaka</h1>
                         <p class="person-title">Project Director</p>
+                        <p class="person-email">tanakatiya@gmail.com</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Tiya-Tanaka.jpg")}></img>
                     </div>

@@ -33,6 +33,11 @@ class Resources extends React.Component {
                             <a href="https://drive.google.com/file/d/11waLtu69OHVIHf4laKraM-Idivqip7UL/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 3</p>
                         </div>
+
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/1MOgs4ZmsiM11KxhkVe5AbWNg4KdC_SAn/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 4</p>
+                        </div>
                     </div>
 
                     <h2 class="heading">Program Package</h2>
@@ -69,6 +74,7 @@ class Resources extends React.Component {
                             <a href="https://drive.google.com/file/d/15MOVjgNkTz1Jj4d7rgNG3j7-VhBOuavI/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPWaves}></img></a>
                             <p class="workshop-name school-name" style={{color: "#000000"}}>Prince of Wales: Waves</p>
                         </div>
+                        
                         
                     </div>
 

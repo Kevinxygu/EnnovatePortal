@@ -437,6 +437,10 @@ footer {
     z-index: 50;
     font-size: 15px;
 }
+
+.person-email {
+    display: none;
+}
   
 .person-img {
     position: absolute;
