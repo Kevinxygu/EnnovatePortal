@@ -433,7 +433,7 @@ class App extends React.Component {
                     </div>
                     <div class="member block">
                         <h1 class="person-name">Sofia/Sammie Ocampo</h1>
-                        <p class="person-title">Marketing Associate</p>
+                        <p class="person-title">Mentorship Associate</p>
                         <p class ="person-email">ocamposofia221@gmail.com</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Sammie-Ocampo.PNG")}></img>
