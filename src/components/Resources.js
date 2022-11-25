@@ -38,6 +38,11 @@ class Resources extends React.Component {
                             <a href="https://drive.google.com/file/d/1MOgs4ZmsiM11KxhkVe5AbWNg4KdC_SAn/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 4</p>
                         </div>
+
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/1sRcg-xJU3jGmY1S4p2mgkfWEF2A-M0Aq/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 5</p>
+                        </div>
                     </div>
 
                     <h2 class="heading">Program Package</h2>
