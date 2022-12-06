@@ -368,12 +368,7 @@ class App extends React.Component {
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Kelly-Fang.PNG")}></img>
                     </div>
-                    <div class="member block">
-                        <h1 class="person-name">Kesar Mehta</h1>
-                        <p class="person-title">Project Associate</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kesar-Mehta.PNG")}></img>
-                    </div>
+                
                     <div class="member block">
                         <h1 class="person-name">Lucy Zhu</h1>
                         <p class="person-title">Project Associate</p>
