@@ -403,20 +403,39 @@ footer {
 .member {
     height: 250px;
     width: 250px;
-    background: #5e89ff;
+    background: #213c87;
     cursor: pointer;
     transition: 0.2s ease-in-out box-shadow;
     overflow: hidden;
     margin: 25px;
 }
-  
+
+.person-email {
+    font-weight: 200;
+    bottom: 10px;
+    left: 25px;
+    position: absolute;
+    color: white;
+    z-index: 50;
+    font-size: 15px;
+    display: none;
+    cursor: default;
+}
+
 .member:hover {
     box-shadow: 10px 10px 15px -3px #5e89ff;
 }
-
-.person-contact {
-    display: none;
+.member:hover .person-email {
+    display: block;
 }
+
+/* .person-contact {
+    display: block;
+    
+}
+.person-contact:hover{
+    display:block;
+} */
   
 .person-name {
     font-weight: 500;
@@ -436,11 +455,14 @@ footer {
     color: white;
     z-index: 50;
     font-size: 15px;
+    
 }
 
-.person-email {
+.member:hover .person-title {
     display: none;
 }
+
+
   
 .person-img {
     position: absolute;
