@@ -196,7 +196,7 @@ class App extends React.Component {
                     <div class="member block">
                         <h1 class="person-name">Carina Koo</h1>
                         <p class="person-title">Internal Manager</p>
-                        <p class ="person-email">kocarina@gmail.com</p>
+                        <p class ="person-email">ko0carina@gmail.com</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Carina-Koo.png")}></img>
                     </div>
@@ -212,6 +212,7 @@ class App extends React.Component {
                     <div class="member block">
                         <h1 class="person-name">Ashley Liu</h1>
                         <p class="person-title">External Manager</p>
+                        <p class ="person-email">ashleyliu0209@gmail.com</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Ashley-Liu.jpg")}></img>
                     </div>
@@ -252,6 +253,8 @@ class App extends React.Component {
                     <div class="member block">
                         <h1 class="person-name">Ryu Watanabe</h1>
                         <p class="person-title">Ennovate Advisor</p>
+                        
+                        <p class ="person-email">ryujwatanabe@gmail.com</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Ryu-Watanabe.jpg")}></img>
                     </div>
@@ -362,18 +365,20 @@ class App extends React.Component {
                         <img class="person-img" src={require("./assets/team-members/Kesar-Mehta.PNG")}></img>
                     </div>
                     <div class="member block">
+                        <h1 class="person-name">Joanne Chung</h1>
+                        <p class="person-title">Project Associate</p>
+                        <p class ="person-email">jchungy12345@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Joanne-Chung.PNG")}></img>
+                    </div>
+                    <div class="member block">
                         <h1 class="person-name">Kelly Fang</h1>
                         <p class="person-title">Marketing Associate</p>
                         <p class ="person-email">kellyf1808@gmail.com</p>
                         <div class="person-gradient"></div>
                         <img class="person-img" src={require("./assets/team-members/Kelly-Fang.PNG")}></img>
                     </div>
-                    <div class="member block">
-                        <h1 class="person-name">Kesar Mehta</h1>
-                        <p class="person-title">Project Associate</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kesar-Mehta.PNG")}></img>
-                    </div>
+                
                     <div class="member block">
                         <h1 class="person-name">Lucy Zhu</h1>
                         <p class="person-title">Project Associate</p>
