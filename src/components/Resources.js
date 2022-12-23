@@ -9,6 +9,8 @@ import XPMindlight from "../assets/XPMindlight.jpg";
 import XPTotesation from "../assets/XPTotesation.jpg";
 import XPTidalRings from "../assets/XPTidalRings.jpg";
 import XPWaves from "../assets/XPWaves.jpg";
+import XPUnitee from "../assets/XPUnitee.png";
+import XPOsmia from "../assets/XPOsmia.png";
 
 
 class Resources extends React.Component {
@@ -80,6 +82,26 @@ class Resources extends React.Component {
                             <p class="workshop-name school-name" style={{color: "#000000"}}>Prince of Wales: Waves</p>
                         </div>
                         
+                        
+                    </div>
+
+                    <p class="description">Listed here are also example presentations at final competition!</p>
+                    <div class="grid" id="school-powerpoints">
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/1s3b8qou7CoAAite6z-qYKPLJbv-FCeLA/view" target="_blank"><img class="workshop-img" src={XPGoatSoap}></img></a>
+                            <p class="workshop-name school-name" style={{color: "#000000"}}>Hamber: Goat Soap</p>
+                        </div>
+
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/1M-3lUdL16ZJFMmZq3EXDioV_W5X6Pv6w/view" target="_blank"><img class="workshop-img" src={XPUnitee}></img></a>
+                            <p class="workshop-name school-name" style={{color: "#000000"}}>Killarney: Unitee</p>
+                        </div>
+
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/1Tm5LH3Y3qWg9AV6mev-4I6xkmI-hsUJv/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPOsmia}></img></a>
+                            <p class="workshop-name school-name">Hamber: Osmia</p>
+                        </div>
+
                         
                     </div>
 
