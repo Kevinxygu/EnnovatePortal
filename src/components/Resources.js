@@ -85,7 +85,7 @@ class Resources extends React.Component {
                         
                     </div>
 
-                    <p class="description">Listed here are also example presentations at final competition!</p>
+                    <p class="description">Previous Presentations:</p>
                     <div class="grid" id="school-powerpoints">
                         <div class="workshop">
                             <a href="https://drive.google.com/file/d/1s3b8qou7CoAAite6z-qYKPLJbv-FCeLA/view" target="_blank"><img class="workshop-img" src={XPGoatSoap}></img></a>
@@ -100,6 +100,11 @@ class Resources extends React.Component {
                         <div class="workshop">
                             <a href="https://drive.google.com/file/d/1Tm5LH3Y3qWg9AV6mev-4I6xkmI-hsUJv/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPOsmia}></img></a>
                             <p class="workshop-name school-name">Hamber: Osmia</p>
+                        </div>
+
+                        <div class="workshop">
+                            <a href="https://drive.google.com/file/d/1kWhaHebXPFfvWyYd_wOE809osmUXPLYZ/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPWaves}></img></a>
+                            <p class="workshop-name school-name" style={{color: "#000000"}}>Prince of Wales: Waves</p>
                         </div>
 
                         
