@@ -55,23 +55,24 @@ a:link {
 }
 
 #sellingPeriod{
-    background-color: #130047;
-}
-
-#sellingPeriod2{
-    background-color: #574D83;
+    background-color: #000b47;
 }
 
 #universitySeminar{
-    background-color: #352665;
+    background-color: #121359;
 }
 
+#sellingPeriod2{
+    background-color: #222e66;
+}
+
+
 #rsvp{
-    background-color: #7973a2;
+    background-color: #4918c5;
 }
 
 #microloan{
-    background-color: #9B99C0;
+    background-color: #3b32f2;
 }
 
 #businessPlan{
