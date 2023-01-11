@@ -3,6 +3,7 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
 .section-title {
     font-size: 30px;
     margin: 30px;
@@ -22,15 +23,432 @@
 
 .maintext {
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 .ennovate-waiting {
-    margin: 0 ;
+    margin: 0;
     display: block;
     width: 60%;
     max-width: 500px;
     cursor: pointer;
+}
+
+/* Code for final comp page begins here */
+
+.body {
+    margin: 0;
+    font-family: 'Open Sans';
+    background-color: white;
+}
+
+.requirementText {
+    color: red;
+}
+
+.required {
+    display: flex;
+}
+
+#h1desc {
+    margin-left: 20px;
+}
+
+#filedescription {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.file {
+    display: block;
+}
+
+.custom-file {
+    border: 1px solid #264080;
+    padding: 6px 12px;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #264080;
+    color: white;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    display: block;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: black;
+
+    border-bottom: 3px solid #3b3b4f;
+    display: block;
+
+}
+
+#custom-button,
+#custom-button2 {
+    background-color: #264080;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#afile {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+#file-upload {
+    height: 80px;
+}
+
+.message {
+    font-size: 8px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.submit {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.submitinput {
+    display: flex;
+}
+
+.message .success {
+    font-size: 14px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    height: auto;
+    width: auto;
+    box-shadow: inset 0 0 1px 1px green;
+    padding: 5px;
+    margin-top: -5px;
+    border-radius: 5px;
+    display: block;
+}
+
+.exit {
+    background: rgb(255, 255, 255);
+    width: 23px;
+    height: 23px;
+    position: relative;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: white;
+    bottom: 310px;
+
+    left: 170px;
+
+}
+
+.exit:after {
+    content: '';
+    height: 18px;
+    border-left: 3px solid #264080;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 2px;
+    left: 8px;
+}
+
+.exit:before {
+    content: '';
+    height: 18px;
+    border-left: 3px solid #264080;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 8px;
+    bottom: 2px;
+}
+
+.popupmsg {
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    background-color: #264080;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+#popup {
+    display: none;
+}
+
+.popuptxt {
+    margin-top: 66%;
+    font-size: 18px;
+}
+
+.message .danger {
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    height: auto;
+    width: auto;
+    box-shadow: inset 0 0 1px 1px red;
+    padding: 5px;
+    margin-top: -5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.ennovate-logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 100px;
+}
+
+#custom-text,
+#custom-text2,
+#file-upload {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    outline-style: solid;
+    outline-offset: 6px;
+    outline-color: gray;
+    font-size: 16px;
+    transform: translateZ(0);
+    /*filter : drop-shadow(3px 3px 5px rgb(165, 165, 165))*/
+
+}
+
+#custom-button:hover {
+    background-color: #365fc8;
+}
+
+#custom-button2:hover {
+    background-color: #365fc8;
+}
+
+.submit:hover {
+    background-color: rgb(181, 0, 0);
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #264080;
+    border-radius: 50%;
+    margin: auto;
+    z-index : 1;
+    
+}
+
+.outline {
+    border-radius: 50%;
+    border-width: 5px;
+    height: 10px;
+    width: 10px;
+    border-color: white;
+    border-style: solid;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 35px;
+    z-index : 1;
+    position : absolute;
+
+}
+#two{
+    top: 105px;
+    z-index : 10;
+}
+#three{
+    top: 175px;
+    z-index : 10;
+}
+#four{
+    top: 245px;
+    z-index : 10;
+}
+#five{
+    top: 315px;
+    z-index : 10;
+}
+#six{
+    top: 385px;
+    z-index : 10;
+}
+
+#dots {
+    padding-top: 40px;
+    z-index: 5;
+    position : absolute;
+}
+
+#itinerary {
+    display: flex;
+}
+
+#schedule-timeline {
+    margin-left: 3%;
+
+    width: 30px;
+    margin-top : 15px;
+}
+
+.schedule-description {
+
+    width: 400px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+
+#bluebar {
+    width: 7px;
+    height: 453px;
+    background-color: #264080;
+    border-radius: 7px;
+    margin-left: 6px;
+    position: absolute;
+    z-index: 0;
+
+}
+
+#itinerary {
+    margin-top: 50px;
+    position: relative;
+    height: 400px;
+
+}
+
+h1 {
+    font-size: 15px;
+    display: inline;
+}
+
+p.description {
+    margin-top: -3px;
+
+}
+
+.description-item {
+    margin-top: -2px;
+}
+
+#itinerarytitle {
+    position: absolute;
+    margin-left: 30px;
+    font-size: 20px;
+    top: -70px;
+}
+
+.league-information {
+    margin-left: 20px;
+    margin-top : 100px;
+}
+
+#leagueheading {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#leaguename {
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+#rubriclink {
+    height: 24vw;
+    width: 18vw;
+
+    margin-left: 30px
+}
+
+.rubricimg {
+    margin-top: 15px;
+    border-radius: 10%;
+    height: 400px;
+
+}
+
+.rubricimgric {
+    border-radius: 50%;
+}
+
+.judging-rubric {
+    display: flex;
+}
+
+.rubricguidelines {
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.panelists {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.penlist {
+    position: relative;
+    margin-left: 30px;
+}
+
+.judgeimg {
+    width: 150px;
+    z-index: -1;
+    border-radius: 8%
+}
+
+#panelistheading {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 300px;
+}
+
+.judge {
+    margin-top: 100px;
+}
+
+.judgename {
+    position: absolute;
+    font-weight: 200;
+    bottom: 5px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 50;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 620px) {
@@ -46,8 +464,3 @@
         display: none;
     }
 }
-
-
-
-
-

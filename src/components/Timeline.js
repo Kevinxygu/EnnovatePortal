@@ -108,7 +108,7 @@ class Timeline extends React.Component {
                         <div class= "program-text">
         
                         <h2 class="program-title">Final Competition Day! </h2>
-                        <p class="program-desc">Final competitiond day! Get ready to present, business <br /> casual and monitor the "Final Competition" tab</p>
+                        <p class="program-desc">Final competition day! Get ready to present, business <br /> casual and monitor the "Final Competition" tab</p>
    
                         </div>
                     </div>
