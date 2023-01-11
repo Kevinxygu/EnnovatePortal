@@ -84,7 +84,8 @@ class FinalComp extends React.Component {
                 <div class = "maintext">Final Competition information will be coming out soon!
                 </div>
 
-                <div class="maintext">Please RSVP with this <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1dYmFP581K-R9ms1H245_7BlcX-8m7iBB9W3vxdFBUrtyyw/viewform?usp=sf_link" style={{color: "#000000", fontWeight: "600"}}>link</a></div>
+                <div class="maintext">Please RSVP with this <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1dYmFP581K-R9ms1H245_7BlcX-8m7iBB9W3vxdFBUrtyyw/viewform?usp=sf_link" style={{color: "#000000", fontWeight: "600"}}><p style={{color: 
+                    "#000000", display: "inline"}}>link</p></a></div>
 
         <div class="ennovate-waiting">
         <img src={ennovateWaiting} alt= "ennovate-waitinglogo" class= "ennovate-waiting" ></img>
