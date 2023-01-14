@@ -461,7 +461,7 @@ class App extends React.Component {
                 {mobileMenu}
                 <FinalCompCounter />
 
-                <h1 style={{textAlign: "center", zIndex: "50"}} class="final-comp-blurb"><strong>Until final comp on Jan. 21, 2023! Check the portal when that happens</strong></h1>
+                <h1 class="final-comp-blurb">Until final comp on Jan. 21, 2023! Check the portal when that happens</h1>
 
 
                 <div class="ennovate-sleep">

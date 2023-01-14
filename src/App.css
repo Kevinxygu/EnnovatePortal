@@ -327,7 +327,6 @@ footer {
     display: block;
     width: 50%;
     max-width: 500px;
-    cursor: pointer;
 }
 
 .ennovate-gif {
@@ -346,11 +345,16 @@ footer {
 }
 
 .ennovate-sleep:hover .inner {
-    display: block;
+    /*display: block;*/
+    display: none
 }
 
 .final-comp-blurb {
     font-size: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    display: block
 }
 
 .final-comp-link {
@@ -580,8 +584,14 @@ footer {
         display: none;
     }
 
+    .finalComp {
+        text-align: center
+    }
+
     .final-comp-blurb {
         font-size: 15px;
+        margin: auto;
+        text-align: center
     }
 
     /* Our team page */
