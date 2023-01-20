@@ -14,7 +14,7 @@
   width: 263px;
   height: 100vh;
   background-color: #264080;
-  position: sticky;
+  position: fixed;
   left: 0px;
   top: 0px;
   z-index: 50;
@@ -85,7 +85,7 @@
 }
 
 .content-container {
-  margin-left: 15px;
+  margin-left: 275px;
   margin-right: 100px;
 }
 
@@ -93,7 +93,7 @@
   display: none;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 800px) {
   .link-text {
     color: aqua;
   }

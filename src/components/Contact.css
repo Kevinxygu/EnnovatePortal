@@ -18,6 +18,8 @@
 
 .content {
     margin: 30px;
+    padding-bottom: 0px;
+    max-height: 100vh;
 }
 
 #first {
@@ -125,6 +127,11 @@ input:focus, textarea:focus {
         width: 100%;
         float: none;
     }
+
+    textarea {
+        width: 80%;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 620px) {
@@ -139,7 +146,7 @@ input:focus, textarea:focus {
 
     textarea {
         width: 80%;
-        height: 100px;
+        height: 80px;
     }
 
     #send {

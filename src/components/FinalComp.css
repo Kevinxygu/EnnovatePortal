@@ -19,6 +19,7 @@
 
 .content {
     margin: 30px;
+    padding-bottom: 50px;
 }
 
 .maintext {
@@ -343,7 +344,6 @@ fieldset {
     margin-top: 50px;
     position: relative;
     height: 400px;
-
 }
 
 h1 {
@@ -361,18 +361,17 @@ p.description {
 }
 
 #itinerarytitle {
-    position: absolute;
-    margin-left: 30px;
     font-size: 20px;
-    top: -70px;
+    text-align: left;
+    height: 10px
 }
 
 .league-information {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top : 100px;
 }
 
-#leagueheading {
+.leagueheading {
     font-size: 20px;
 }
 
@@ -386,17 +385,21 @@ ul {
 }
 
 #rubriclink {
-    height: 24vw;
-    width: 18vw;
-
-    margin-left: 30px
+    /* height: 24vw;
+    /* width: 18vw;
+    /* margin-left: 30px */
+    margin-bottom: 15px
 }
 
 .rubricimg {
     margin-top: 15px;
-    border-radius: 10%;
+    border-radius: 12px;
     height: 400px;
+    transition: ease 0.3s
+}
 
+.rubricimg:hover {
+    box-shadow: 10px 10px 15px -3px #5e89ff;
 }
 
 .rubricimgric {
@@ -404,14 +407,16 @@ ul {
 }
 
 .judging-rubric {
-    display: flex;
+    /* display: flex; */
 }
 
 .rubricguidelines {
-    margin-top: 30px;
-    margin-left: 200px;
+    /*margin-top: 30px; */
+    /*margin-left: 100px;*/
     font-size: 16px;
     line-height: 1.3em;
+    display: block;
+    position: relative
 }
 
 .panelists {
@@ -432,7 +437,7 @@ ul {
 }
 
 #panelistheading {
-    margin-left: 30px;
+    /*margin-left: 30px; */
     font-size: 20px;
     margin-top: 300px;
 }
@@ -451,7 +456,7 @@ ul {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 900px) {
     .section-title {
         font-size: 12px;
         text-align: center;
@@ -462,5 +467,10 @@ ul {
 
     .section-line {
         display: none;
+    }
+
+    .judgingRules {
+        font-size: 15px;
+        padding-bottom: 15px;
     }
 }
