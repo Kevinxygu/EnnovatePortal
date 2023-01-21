@@ -284,54 +284,89 @@ fieldset {
 
 }
 #two{
-    top: 105px;
+    top: 101px;
     z-index : 10;
 }
 #three{
-    top: 175px;
+    top: 165px;
     z-index : 10;
 }
 #four{
-    top: 245px;
+    top: 230px;
     z-index : 10;
 }
 #five{
-    top: 315px;
+    top: 292px;
     z-index : 10;
 }
 #six{
-    top: 385px;
+    top: 355px;
     z-index : 10;
 }
 
+#seven{
+    top: 423px;
+    z-index : 10;
+}
+
+#eight{
+    top: 485px;
+    z-index : 10;
+}
+
+#nine{
+    top: 550px;
+    z-index : 10;
+}
+
+#ten{
+    top: 615px;
+    z-index : 10;
+}
+
+#eleven{
+    top: 680px;
+    z-index : 10;
+}
+#twelve{
+    top: 750px;
+    z-index : 10;
+}
+
+#thirteen{
+    top: 815px;
+    z-index : 10;
+}
 #dots {
-    padding-top: 40px;
+    padding-top: 35px;
     z-index: 5;
     position : absolute;
 }
 
 #itinerary {
     display: flex;
+    margin-bottom: 250px;
+    margin-top : -80px;
 }
 
 #schedule-timeline {
     margin-left: 3%;
 
     width: 30px;
-    margin-top : 15px;
+    margin-top : -10px;
 }
 
 .schedule-description {
 
     width: 400px;
     margin-left: 15px;
-    margin-top: 35px;
+    margin-top: 13px;
 }
 
 
 #bluebar {
     width: 7px;
-    height: 453px;
+    height: 880px;
     background-color: #264080;
     border-radius: 7px;
     margin-left: 6px;
@@ -344,6 +379,7 @@ fieldset {
     margin-top: 50px;
     position: relative;
     height: 400px;
+    margin-bottom: 550px;
 }
 
 h1 {
@@ -357,7 +393,7 @@ p.description {
 }
 
 .description-item {
-    margin-top: -2px;
+    margin-top: -6px;
 }
 
 #itinerarytitle {
@@ -416,7 +452,8 @@ ul {
     font-size: 16px;
     line-height: 1.3em;
     display: block;
-    position: relative
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .panelists {
@@ -434,6 +471,11 @@ ul {
     width: 150px;
     z-index: -1;
     border-radius: 8%
+}
+
+.judgingRules {
+    font-size: 15px;
+    padding-bottom: 60px;
 }
 
 #panelistheading {
@@ -469,8 +511,13 @@ ul {
         display: none;
     }
 
-    .judgingRules {
-        font-size: 15px;
-        padding-bottom: 15px;
+    .itinerary {
+        font-size: 12px;
     }
+ 
+    .schedule-timeline {
+        font-size: 12px;
+    }
+
+    
 }
