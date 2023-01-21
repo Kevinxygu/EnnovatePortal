@@ -178,7 +178,7 @@ class FinalComp extends React.Component {
             
    
                 <h1 id="itinerarytitle">Itinerary</h1>
-                    <div id="itinerary">
+                <div id="itinerary">
                     <div id="schedule-timeline">
                     <div id="bluebar"></div>
                     <div id = "dots">
@@ -188,39 +188,59 @@ class FinalComp extends React.Component {
                     <div class="outline" id="five"><div class="dot" id="activity4"></div></div>
                     <div class="outline" id="six"><div class="dot" id="activity5"></div></div>
                     <div class="outline" id="seven"><div class="dot" id="activity6"></div></div>
+                    <div class="outline" id="eight"><div class="dot" id="activity7"></div></div>
+                    <div class="outline" id="nine"><div class="dot" id="activity8"></div></div>
+                    <div class="outline" id="ten"><div class="dot" id="activity9"></div></div>
+                    <div class="outline" id="eleven"><div class="dot" id="activity10"></div></div>
+                    <div class="outline" id="twelve"><div class="dot" id="activity11"></div></div>
+                    <div class="outline" id="thirteen"><div class="dot" id="activity12"></div></div>
+                    <div class="outline" id="fourteen"><div class="dot" id="activity13"></div></div>
                     </div>
                     </div>
 
                     <div class="schedule-description">
-                    <div class="description-item"><h1>12:45 PM - 1:00PM</h1><p class="description">Registration</p></div>
-                    <div class="description-item"><h1>1:00 PM - 1:30 PM</h1><p class="description">Opening Ceremony</p></div>
-                    <div class="description-item"><h1>1:30 PM - 3:00 PM</h1><p class="description">League Presentations</p></div>
-                    <div class="description-item"><h1>3:00 PM - 3:30 PM</h1><p class="description">Judge Deliberation + Kahoot!</p></div>
-                    <div class="description-item"><h1>3:30 PM - 4:45 PM</h1><p class="description">Finalist Presentation</p></div>
-                    <div class="description-item"><h1>4:45 PM - 5:00 PM</h1><p class="description">Closing Celebration</p></div>
-
+                    <div class="description-item"><h1>9:00 - 10 AM </h1><p class="description">Registration & Breakfast</p></div>
+                    <div class="description-item"><h1>10:00 - 10:15 AM</h1><p class="description">Opening Ceremony</p></div>
+                    <div class="description-item"><h1>10:15 - 11:05 AM</h1><p class="description">Workshop 1: Resumes, Cover Letters & LinkedIn</p></div>
+                    <div class="description-item"><h1>11:05 - 11:20 AM</h1><p class="description">Opening Round Preparation</p></div>
+                    <div class="description-item"><h1>11:20 - 12:30 PM</h1><p class="description">League Presentations at HA 491, 492, BIG 4</p></div>
+                    <div class="description-item"><h1>12:30 - 1:00 PM</h1><p class="description">Judge Deliberation, Kahoot & Teacher's Forum</p></div>
+                    <div class="description-item"><h1>1:00 - 1:45 PM</h1><p class="description">Lunch</p></div>
+                    <div class="description-item"><h1>1:45 - 2:05 PM</h1><p class="description">Walk to SWING Building</p></div>
+                    <div class="description-item"><h1>2:05 - 2:35 PM</h1><p class="description">Workshop 2: Post-Secondary Panel</p></div>
+                    <div class="description-item"><h1>2:35 - 2:40 PM</h1><p class="description">Final Round Results & Preparations</p></div>
+                    <div class="description-item"><h1>2:40 - 3:55 PM</h1><p class="description">Final Round Preparations</p></div>
+                    <div class="description-item"><h1>3:55 - 4:10 PM</h1><p class="description">Judges Deliberations</p></div>
+                    <div class="description-item"><h1>4:10 - 5:00 PM</h1><p class="description">Closing Ceremony & Awards</p></div>
                     </div>
                     </div>
 
                     <div class="league-information">
                     <h1 class="leagueheading">League Information</h1>
                     <h4 id="leaguename">League 1:</h4>
-                    <ul>
-                        <li>School 1</li>
-                        <li>School 2</li>
-                    </ul>
+                        <ul>
+                            <li>Killarny</li>
+                            <li>J.N. Burnett - Mycelium</li>
+                            <li>Prince of Wales - Bumble Balm</li>
+                            <li>H.J. Cambie</li>
+                            <li>University Hill</li>
+                        </ul>
 
                     <h4 id="leaguename">League 2:</h4>
                         <ul>
-                            <li>School 1</li>
-                            <li>School 2</li>
+                            <li>Holy Cross - Scent Sations</li>
+                            <li>Prince of Wales - TerraDome</li>
+                            <li>Ecole Kwanteln</li>
+                            <li>McMath - Simple Succulents</li>
                         </ul>
 
                     <h4 id="leaguename">League 3:</h4>
-                    <ul>
-                        <li>School 1</li>
-                        <li>School 2</li>
-                    </ul>
+                        <ul>
+                            <li>Notre Dame - Planet Paint</li>
+                            <li>University Hill - reFila</li>
+                            <li>Holy Cross - Tee-Chainz</li>
+                            <li>Burnaby South - B-Sea Lion</li>
+                        </ul>
 
                     </div>
 
@@ -238,13 +258,14 @@ class FinalComp extends React.Component {
 
                             <strong>2.</strong> All presentations will be followed by a 3-MINUTE Q&A period. Only judges are permitted to ask questions.<br /><br />
 
-                            <strong>3.</strong> Please keep your cameras on and have your mics muted when you are not presenting.<br /><br />
+                            <strong>3.</strong> Please be respectful of others during their presentation times. No interruptions, turn phones off.<br /><br />
 
-                            <strong>4.</strong> Have one rep with the slides on standby, ready to screen share when it is your presentation time. Please stop screen sharing after your presentation.<br /><br />
+                            <strong>4.</strong> As you have already sent the slides, please be prepared to present <br /><br /> 
 
                             <strong>5.</strong> Your team will receive warnings at the 3-minute, 1-minute and 10-second mark.<br /><br />
 
                             <strong>6.</strong> 2 teams from each league will advance to the final round.<br></br>
+                            <br></br>
                         </p>
                     </div>
                     </div>
