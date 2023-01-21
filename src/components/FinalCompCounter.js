@@ -18,7 +18,7 @@ class FinalCompCounter extends React.Component {
     renderIntervals() {
         this.setState({currentTime: Date.now()});
         let currentTime = this.state.currentTime;
-        const finalCompDate = new Date("January 21, 2023 00:00:00").getTime();
+        const finalCompDate = new Date("January 21, 2023 16:00:00").getTime();
 
         const distance = finalCompDate - currentTime;
 

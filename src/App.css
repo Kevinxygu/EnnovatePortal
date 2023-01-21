@@ -548,7 +548,9 @@ footer {
     }
 
     .intro-header {
-        font-size: 35px;
+        font-size: 25px;
+        text-align: center;
+        margin: auto
     }
 
     .big-number {

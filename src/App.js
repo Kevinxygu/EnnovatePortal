@@ -104,9 +104,9 @@ class App extends React.Component {
              difference this year and in future years to come.  <a href="https://www.enactusubc.ca/" target="_blank" style={{color: "#000000", textDecoration: "underline"}}><b>Enactus UBC</b></a> is home to a team of over 100 students who collaborate to develop unique projects to serve our campus and community, 
              further driving the Enactus mission.
                     </p>
-                </div>
 
-                <h1 class="intro-header" style={{textAlign: "center"}}><strong>Last year...</strong></h1>
+                    <h1 class="intro-header">Last year...</h1>
+                </div>
 
                 <div class="semester-stats">
                     <div class="semester-stat">

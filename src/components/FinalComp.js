@@ -167,6 +167,8 @@ class FinalComp extends React.Component {
             </div>
         )
 
+        // Change Rules 3 and 4 to adapt it to in-person
+
         const livePage = (
             <div class="final-comp">
             <h2 class="section-title">Final Competition</h2>
@@ -214,12 +216,18 @@ class FinalComp extends React.Component {
                             <li>School 2</li>
                         </ul>
 
+                    <h4 id="leaguename">League 3:</h4>
+                    <ul>
+                        <li>School 1</li>
+                        <li>School 2</li>
+                    </ul>
+
                     </div>
 
                     <h1 class="leagueheading">Judging Rubric</h1>
                     <div class="judging-rubric">
                     <div id="rubriclink">
-                        <a href="https://ennovateubc.org">
+                        <a href="https://drive.google.com/file/d/1wJBRjIBb5sazzDiRfp0-zde3bYIlw73m/view?usp=sharing">
                             <img class ="rubricimg" src={FinalCompRubric}></img>
                         </a>
                     </div>
