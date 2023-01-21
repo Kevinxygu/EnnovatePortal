@@ -87,7 +87,7 @@ class Timeline extends React.Component {
                             <h2 class="timeline-date">20</h2>
                         </div>
 
-                        <div class="program-line" style={{backgroundColor: "#303030"}}></div>
+                        <div class="program-line"></div>
                         <div class= "program-text">
         
                         <h2 class="program-title">Business Plan Submission</h2>
@@ -104,7 +104,7 @@ class Timeline extends React.Component {
                             <h2 class="timeline-date">21</h2>
                         </div>
 
-                        <div class="program-line" style={{backgroundColor: "#303030"}}></div>
+                        <div class="program-line"></div>
                         <div class= "program-text">
         
                         <h2 class="program-title">Final Competition Day! </h2>
