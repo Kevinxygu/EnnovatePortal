@@ -201,13 +201,13 @@ class FinalComp extends React.Component {
                     <div class="schedule-description">
                     <div class="description-item"><h1>9:00 - 10 AM </h1><p class="description">Registration & Breakfast</p></div>
                     <div class="description-item"><h1>10:00 - 10:15 AM</h1><p class="description">Opening Ceremony</p></div>
-                    <div class="description-item"><h1>10:15 - 11:05 AM</h1><p class="description">Workshop 1: Resumes, Cover Letters & LinkedIn</p></div>
-                    <div class="description-item"><h1>11:05 - 11:20 AM</h1><p class="description">Opening Round Preparation</p></div>
+                    <div class="description-item"><h1>10:15 - 11:05 AM</h1><p class="description">Workshop 1</p></div>
+                    <div class="description-item"><h1>11:05 - 11:20 AM</ h1><p class="description">Opening Round Preparation</p></div>
                     <div class="description-item"><h1>11:20 - 12:30 PM</h1><p class="description">League Presentations at HA 491, 492, BIG 4</p></div>
                     <div class="description-item"><h1>12:30 - 1:00 PM</h1><p class="description">Judge Deliberation, Kahoot & Teacher's Forum</p></div>
                     <div class="description-item"><h1>1:00 - 1:45 PM</h1><p class="description">Lunch</p></div>
                     <div class="description-item"><h1>1:45 - 2:05 PM</h1><p class="description">Walk to SWING Building</p></div>
-                    <div class="description-item"><h1>2:05 - 2:35 PM</h1><p class="description">Workshop 2: Post-Secondary Panel</p></div>
+                    <div class="description-item"><h1>2:05 - 2:35 PM</h1><p class="description">Workshop 2</p></div>
                     <div class="description-item"><h1>2:35 - 2:40 PM</h1><p class="description">Final Round Results & Preparations</p></div>
                     <div class="description-item"><h1>2:40 - 3:55 PM</h1><p class="description">Final Round Preparations</p></div>
                     <div class="description-item"><h1>3:55 - 4:10 PM</h1><p class="description">Judges Deliberations</p></div>
@@ -219,10 +219,9 @@ class FinalComp extends React.Component {
                     <h1 class="leagueheading">League Information</h1>
                     <h4 id="leaguename">League 1:</h4>
                         <ul>
-                            <li>Killarny</li>
+                            <li>Killarney</li>
                             <li>J.N. Burnett - Mycelium</li>
                             <li>Prince of Wales - Bumble Balm</li>
-                            <li>H.J. Cambie</li>
                             <li>University Hill</li>
                         </ul>
 
@@ -230,7 +229,7 @@ class FinalComp extends React.Component {
                         <ul>
                             <li>Holy Cross - Scent Sations</li>
                             <li>Prince of Wales - TerraDome</li>
-                            <li>Ecole Kwanteln</li>
+                            <li>H.J. Cambie</li>
                             <li>McMath - Simple Succulents</li>
                         </ul>
 

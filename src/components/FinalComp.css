@@ -366,7 +366,7 @@ fieldset {
 
 #bluebar {
     width: 7px;
-    height: 880px;
+    height: 860px;
     background-color: #264080;
     border-radius: 7px;
     margin-left: 6px;
@@ -379,7 +379,7 @@ fieldset {
     margin-top: 50px;
     position: relative;
     height: 400px;
-    margin-bottom: 550px;
+    margin-bottom: 500px;
 }
 
 h1 {
@@ -518,6 +518,67 @@ ul {
     .schedule-timeline {
         font-size: 12px;
     }
+    
+    #itinerary{
+        margin-bottom: 400px;
+    }
 
+    #bluebar{
+        height: 785px;
+    }
+    #two{
+        top: 90px;
+        z-index : 10;
+    }
+    #three{
+        top: 145px;
+        z-index : 10;
+    }
+    #four{
+        top: 205px;
+        z-index : 10;
+    }
+    #five{
+        top: 265px;
+        z-index : 10;
+    }
+    #six{
+        top: 320px;
+        z-index : 10;
+    }
+    
+    #seven{
+        top: 380px;
+        z-index : 10;
+    }
+    
+    #eight{
+        top: 440px;
+        z-index : 10;
+    }
+    
+    #nine{
+        top: 500px;
+        z-index : 10;
+    }
+    
+    #ten{
+        top: 557px;
+        z-index : 10;
+    }
+    
+    #eleven{
+        top: 610px;
+        z-index : 10;
+    }
+    #twelve{
+        top: 670px;
+        z-index : 10;
+    }
+    
+    #thirteen{
+        top: 730px;
+        z-index : 10;
+    }
     
 }

@@ -623,7 +623,7 @@ footer {
 }
 
 /* Phone size */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 800px) {
     footer {
         padding: 10px 55px 10px 55px;
     }
