@@ -4,6 +4,7 @@ import FinalComp from "./FinalComp.js";
 import Guide from "./Guide.js";
 import Resources from "./Resources.js";
 import Timeline from "./Timeline.js";
+import Announcements from "./Announcements.js"
 import React from "react";
 import EnnovateLogoW from "../assets/ENNOVATE-W.png";
 import BackArrow from "../assets/Back-Arrow.png";
@@ -13,6 +14,7 @@ import TimelineIcon from "../assets/Timeline-Icon.png";
 import ResourcesIcon from "../assets/Resources-Icon.png";
 import FinalCompIcon from "../assets/FinalComp-Icon.png";
 import MobileBackIcon from "../assets/MobileBackIcon.png";
+import AnnouncementsIcon from "../assets/Announcements-Icon.png"
 
 class Portal extends React.Component {
   constructor(props) {
@@ -59,7 +61,7 @@ class Portal extends React.Component {
 
   // Change active state to the Announcements page
   handleChooseAnnouncements() {
-    this.setState({pageToRender: <FinalComp />});
+    this.setState({pageToRender: <Announcements />});
     this.setState({currentState: "announcements"})
   }
 
@@ -83,12 +85,12 @@ class Portal extends React.Component {
               <p class="link-text">Portal Guide</p>
             </div>
 
-            {/* <div class="section-link" id="announcments" onClick={this.handleChooseAnnouncements} style={{
+            <div class="section-link" id="announcments" onClick={this.handleChooseAnnouncements} style={{
               background: (currentState == "announcements") ? "#3e6bb8" : "none"
             }}>
-              <img src=
-
-            </div> */}
+              <img src={AnnouncementsIcon} class="link-icon"></img>
+              <p class="link-text">Announcements</p>
+            </div>
 
             <div class="section-link" id="contact" onClick={this.handleChooseContact} style={{
               background: (currentState == "contact") ? "#3e6bb8" : "none"
@@ -128,6 +130,10 @@ class Portal extends React.Component {
           <img src={GuideIcon} class="mobile-icon" onClick={this.handleChooseGuide} style={{
             background: (currentState == "guide") ? "#3e6bb8" : "none"
           }}></img>
+          <img src={AnnouncementsIcon} class="mobile-icon" onClick={this.handleChooseAnnouncements} style={{
+            background: (currentState == "announcements") ? "#3e6bb8" : "none"
+          }}></img>
+          
           <img src={ContactIcon} class="mobile-icon" onClick={this.handleChooseContact} style={{
             background: (currentState == "contact") ? "#3e6bb8" : "none"
           }}></img>

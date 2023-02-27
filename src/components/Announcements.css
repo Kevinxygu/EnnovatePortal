@@ -4,21 +4,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+.content{
     width: 100vw;
     height: 100vh;
 }
 
 #imageReplacement {
     height: 100%;
-    width: 30%;
+    width: 10%;
     background-color: black;
     color: black;
     margin-right : 40px;
 }
 .announcement{
     display : flex;
-    flex-direction: horizontal;
+    flex-direction: vertical;
     width : 70%;
     height : 100px;
 }
@@ -26,13 +26,21 @@ body{
 .descriptionLine{
     display: flex;
     flex-direction : horizontal;
+    font-size: 1em;
 }
 
 .announcementAuthor {
     margin-right : 30px;
 }
 
-.textSide{
+#textSide{
     display: flex;
-    align-items: center;
+    flex-direction : column;
+    margin-top: 2px;
+    margin-bottom: auto;
 }
+
+.announcementTitle{
+    font-weight: bold;
+}
+
