@@ -22,6 +22,7 @@ class Portal extends React.Component {
     this.handleChooseTimeline = this.handleChooseTimeline.bind(this);
     this.handleChooseResources = this.handleChooseResources.bind(this);
     this.handleChooseFinalComp = this.handleChooseFinalComp.bind(this);
+    this.handleChooseAnnouncements = this.handleChooseAnnouncements.bind(this);
     this.state = {pageToRender: <Guide />, currentState: "guide"}
     // the pageState has to be either guide, contact, timeline, resources or finalcomp
   }
@@ -56,6 +57,12 @@ class Portal extends React.Component {
     this.setState({currentState: "finalcomp"})
   }
 
+  // Change active state to the Announcements page
+  handleChooseAnnouncements() {
+    this.setState({pageToRender: <FinalComp />});
+    this.setState({currentState: "announcements"})
+  }
+
   render() {
     let pageToRender = this.state.pageToRender;
     let currentState = this.state.currentState;
@@ -75,6 +82,13 @@ class Portal extends React.Component {
               <img src={GuideIcon} class="link-icon" ></img>
               <p class="link-text">Portal Guide</p>
             </div>
+
+            {/* <div class="section-link" id="announcments" onClick={this.handleChooseAnnouncements} style={{
+              background: (currentState == "announcements") ? "#3e6bb8" : "none"
+            }}>
+              <img src=
+
+            </div> */}
 
             <div class="section-link" id="contact" onClick={this.handleChooseContact} style={{
               background: (currentState == "contact") ? "#3e6bb8" : "none"

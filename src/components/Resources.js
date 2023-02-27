@@ -2,6 +2,7 @@ import "./Resources.css";
 import React from "react";
 import WorkshopBackground from "../assets/Ennovate-Filler.jpg"
 import ProgramPackage from "../assets/Program-Package.png";
+import SummarySheets from "../assets/Summary-Sheet.png";
 import Rubric from "../assets/Rubric.png";
 import XPGoatSoap from "../assets/XPGoatSoap.png";
 import XpJardenings from "../assets/XPJardenings.jpg";
@@ -47,6 +48,10 @@ class Resources extends React.Component {
                         </div>
                     </div>
 
+                    <h2 class="heading">Summary Sheets</h2>
+                    <a href="https://drive.google.com/file/d/1YFKmnT-HLJRISkwzFySqSlpqt_iCiUr3/view" target="_blank"><img src={SummarySheets} class="program-package"></img></a>
+
+
                     <h2 class="heading">Program Package</h2>
                     <a href="https://drive.google.com/file/d/1n9ldHMlfexIGxkY1WiOiWoQxNnsi4v9B/view" target="_blank"><img src={ProgramPackage} class="program-package"></img></a>
 
@@ -56,6 +61,7 @@ class Resources extends React.Component {
                     <p class="description">Below are selected Ennovate projects from previous years that we saw something special in. Many of these projects were finalists during final competition day, or better yet winners!</p>
                     <p class="description">Click on one to see their project plans!</p>
 
+                    
                     <div class="grid" id="example-schools">
                         <div class="workshop">
                             <a href="https://drive.google.com/file/d/1xAGcZtx-sEpfnEXXeCSyO2slQb6B83p2/view?usp=sharing" target="_blank"><img class="workshop-img" src={XPGoatSoap}></img></a>
