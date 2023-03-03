@@ -8,10 +8,24 @@ class Announcements extends React.Component {
                 <h2 class="section-title">Announcements</h2>
                 <div class="section-line"></div>
                 <div class="content">
-                     <div class = "announcement">
+                    <div class = "announcement">
+                    
+                        <div id="imageReplacement">
+                        </div>
+                
+                         <div class= "textSide">
+                            <div class="announcementTitle">Figma Balls</div>
+                            <div class="descriptionLine">
+                                <div class="announcementAuthor">Kevin Gu | ERG</div>
+                                <div class="announcementDate">May 6</div>
+                            </div>
+                            <div class="announcementText"> Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma BallFigma Balls Figma Balls Figma BallsFigma Balls Figma Balls Figma BallsFigma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls </div>
+                        </div>
+                    </div>
+                    <div class = "announcement">
                         <div id="imageReplacement"></div>
                 
-                         <div id = "textSide">
+                         <div class= "textSide">
                             <div class="announcementTitle">Figma Balls</div>
                             <div class="descriptionLine">
                                 <div class="announcementAuthor">Kevin Gu | ERG</div>
@@ -20,7 +34,7 @@ class Announcements extends React.Component {
                             <div class="announcementText">Figma Balls Figma Balls Figma Balls</div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             
