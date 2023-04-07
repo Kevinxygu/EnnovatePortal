@@ -14,26 +14,26 @@ class Announcements extends React.Component {
                         </div>
                 
                          <div class= "textSide">
-                            <div class="announcementTitle">Figma Balls</div>
+                            <div class="announcementTitle">Announcement Portal Open!</div>
                             <div class="descriptionLine">
-                                <div class="announcementAuthor">Kevin Gu | ERG</div>
-                                <div class="announcementDate">May 6</div>
+                                <div class="announcementAuthor">Kevin Gu | Technology Manager</div>
+                                <div class="announcementDate">Apr 6</div>
                             </div>
-                            <div class="announcementText"> Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma BallFigma Balls Figma Balls Figma BallsFigma Balls Figma Balls Figma BallsFigma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls Figma Balls </div>
+                            <div class="announcementText">The announcement page for the portal is now open! Updated information about competitions and business lessons will be posted here so check often! You may also see a few announcements from your school's PAs so make sure that you check here. Your PAs might be communicating with you through here :))</div>
                         </div>
                     </div>
-                    <div class = "announcement">
+                    {/* <div class = "announcement">
                         <div id="imageReplacement"></div>
                 
                          <div class= "textSide">
-                            <div class="announcementTitle">Figma Balls</div>
+                            <div class="announcementTitle">Stuff</div>
                             <div class="descriptionLine">
-                                <div class="announcementAuthor">Kevin Gu | ERG</div>
+                                <div class="announcementAuthor">Euna Ao | ERG</div>
                                 <div class="announcementDate">May 6</div>
                             </div>
-                            <div class="announcementText">Figma Balls Figma Balls Figma Balls</div>
+                            <div class="announcementText">Lorem ipsum bruh lorem ipsum Lorem ipsum bruh lorem ipsum Lorem ipsum bruh lorem ipsum</div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

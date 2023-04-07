@@ -5,8 +5,12 @@
 }
 
 .content{
-    width: 100vw;
+    width: 100vw - 233px;
     height: 100vh;
+}
+
+.section-line {
+    width: 100%
 }
 
 #imageReplacement {
@@ -22,7 +26,7 @@
 .announcement{
     display : flex;
     flex-direction: vertical;
-    width : 70%;
+    width : 1000px;
     height : auto;
     border-radius: 20px;
     border-color : grey;
