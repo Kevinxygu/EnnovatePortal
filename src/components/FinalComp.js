@@ -282,7 +282,7 @@ class FinalComp extends React.Component {
                     <h4 id="leaguename">League 3:</h4>
                         <ul>
                             <li>Fleetwood - HiveHugs</li>
-                            <li>Magee</li>
+                            <li>Magee - ReTea</li>
                             <li>Notre Dame - Al Fresco</li>
                             <li>U-Hill - Green Flame</li>
                         </ul>
