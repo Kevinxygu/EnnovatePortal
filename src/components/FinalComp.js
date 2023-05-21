@@ -191,6 +191,7 @@ class FinalComp extends React.Component {
                     <div class="outline" id="seven"><div class="dot" id="activity6"></div></div>
                     <div class="outline" id="eight"><div class="dot" id="activity7"></div></div>
                     <div class="outline" id="nine"><div class="dot" id="activity8"></div></div>
+                    <div class="outline" id="ten"><div class="dot" id="activity9"></div></div>
                     </div>
                     </div>
 
@@ -209,49 +210,54 @@ class FinalComp extends React.Component {
                     <div class="description-item"><h1>3:55 - 4:10 PM</h1><p class="description">Judges Deliberations</p></div>
                     <div class="description-item"><h1>4:10 - 5:00 PM</h1><p class="description">Closing Ceremony & Awards</p></div> */}
                     <div class="description-item">
-    <h1>9:30 AM - 10:00 AM</h1>
-    <p class="description">Welcome Activity</p>
-  </div>
+                        <h1>8:30 AM - 9:30 AM</h1>
+                        <p class="description">Registration and Welcome</p>
+                    </div>
+                    
+                    <div class="description-item">
+                        <h1>9:30 AM - 10:00 AM</h1>
+                        <p class="description">Welcome Activity</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>10:00 AM - 10:15 AM</h1>
-    <p class="description">Opening Ceremony</p>
-  </div>
+                    <div class="description-item">
+                        <h1>10:00 AM - 10:15 AM</h1>
+                        <p class="description">Opening Ceremony</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>10:15 AM - 10:45 AM</h1>
-    <p class="description">Presentation Prep</p>
-  </div>
+                    <div class="description-item">
+                        <h1>10:15 AM - 10:45 AM</h1>
+                        <p class="description">Presentation Prep</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>10:50 AM - 12:00 PM</h1>
-    <p class="description">League Presentations</p>
-  </div>
+                    <div class="description-item">
+                        <h1>10:50 AM - 12:00 PM</h1>
+                        <p class="description">League Presentations</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>12:00 PM - 1:00 PM</h1>
-    <p class="description">Lunch</p>
-  </div>
+                    <div class="description-item">
+                        <h1>12:00 PM - 1:00 PM</h1>
+                        <p class="description">Lunch</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>1:00 PM - 1:45 PM</h1>
-    <p class="description">Keynote</p>
-  </div>
+                    <div class="description-item">
+                        <h1>1:00 PM - 1:45 PM</h1>
+                        <p class="description">Keynote</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>1:45 PM - 2:40 PM</h1>
-    <p class="description">CPA Workshop</p>
-  </div>
+                    <div class="description-item">
+                        <h1>1:45 PM - 2:40 PM</h1>
+                        <p class="description">CPA Workshop</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>2:40 PM - 4:00 PM</h1>
-    <p class="description">Final Presentations</p>
-  </div>
+                    <div class="description-item">
+                        <h1>2:40 PM - 4:00 PM</h1>
+                        <p class="description">Final Presentations</p>
+                    </div>
 
-  <div class="description-item">
-    <h1>4:00 PM - 5:00 PM</h1>
-    <p class="description">Closing and Awards Ceremony</p>
-  </div>
+                    <div class="description-item">
+                        <h1>4:00 PM - 5:00 PM</h1>
+                        <p class="description">Closing and Awards Ceremony</p>
+                    </div>
                     </div>
                     </div>
 
