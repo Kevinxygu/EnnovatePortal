@@ -275,7 +275,6 @@ class FinalComp extends React.Component {
                         <ul>
                             <li>Notre Dame - Soapify</li>
                             <li>Killarney - Pouchify</li>
-                            <li>Windermere</li>
                             <li>Prince of Wales - Coastal Critters</li>
                         </ul>
 
