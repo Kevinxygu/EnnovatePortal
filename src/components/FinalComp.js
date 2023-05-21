@@ -182,6 +182,7 @@ class FinalComp extends React.Component {
                     <div id="schedule-timeline">
                     <div id="bluebar"></div>
                     <div id = "dots">
+                    <div class="outline" id="one"><div class="dot" id="activity1"></div></div>
                     <div class="outline" id="two"><div class="dot" id="activity1"></div></div>
                     <div class="outline" id="three"><div class="dot" id="activity2"></div></div>
                     <div class="outline" id="four"><div class="dot" id="activity3"></div></div>
@@ -190,16 +191,11 @@ class FinalComp extends React.Component {
                     <div class="outline" id="seven"><div class="dot" id="activity6"></div></div>
                     <div class="outline" id="eight"><div class="dot" id="activity7"></div></div>
                     <div class="outline" id="nine"><div class="dot" id="activity8"></div></div>
-                    <div class="outline" id="ten"><div class="dot" id="activity9"></div></div>
-                    <div class="outline" id="eleven"><div class="dot" id="activity10"></div></div>
-                    <div class="outline" id="twelve"><div class="dot" id="activity11"></div></div>
-                    <div class="outline" id="thirteen"><div class="dot" id="activity12"></div></div>
-                    <div class="outline" id="fourteen"><div class="dot" id="activity13"></div></div>
                     </div>
                     </div>
 
                     <div class="schedule-description">
-                    <div class="description-item"><h1>9:00 - 10 AM </h1><p class="description">Registration & Breakfast</p></div>
+                    {/* <div class="description-item"><h1>9:00 - 10 AM </h1><p class="description">Registration & Breakfast</p></div>
                     <div class="description-item"><h1>10:00 - 10:15 AM</h1><p class="description">Opening Ceremony</p></div>
                     <div class="description-item"><h1>10:15 - 11:05 AM</h1><p class="description">Workshop 1</p></div>
                     <div class="description-item"><h1>11:05 - 11:20 AM</ h1><p class="description">Opening Round Preparation</p></div>
@@ -211,7 +207,51 @@ class FinalComp extends React.Component {
                     <div class="description-item"><h1>2:35 - 2:40 PM</h1><p class="description">Final Round Results & Preparations</p></div>
                     <div class="description-item"><h1>2:40 - 3:55 PM</h1><p class="description">Final Round Preparations</p></div>
                     <div class="description-item"><h1>3:55 - 4:10 PM</h1><p class="description">Judges Deliberations</p></div>
-                    <div class="description-item"><h1>4:10 - 5:00 PM</h1><p class="description">Closing Ceremony & Awards</p></div>
+                    <div class="description-item"><h1>4:10 - 5:00 PM</h1><p class="description">Closing Ceremony & Awards</p></div> */}
+                    <div class="description-item">
+    <h1>9:30 AM - 10:00 AM</h1>
+    <p class="description">Welcome Activity</p>
+  </div>
+
+  <div class="description-item">
+    <h1>10:00 AM - 10:15 AM</h1>
+    <p class="description">Opening Ceremony</p>
+  </div>
+
+  <div class="description-item">
+    <h1>10:15 AM - 10:45 AM</h1>
+    <p class="description">Presentation Prep</p>
+  </div>
+
+  <div class="description-item">
+    <h1>10:50 AM - 12:00 PM</h1>
+    <p class="description">League Presentations</p>
+  </div>
+
+  <div class="description-item">
+    <h1>12:00 PM - 1:00 PM</h1>
+    <p class="description">Lunch</p>
+  </div>
+
+  <div class="description-item">
+    <h1>1:00 PM - 1:45 PM</h1>
+    <p class="description">Keynote</p>
+  </div>
+
+  <div class="description-item">
+    <h1>1:45 PM - 2:40 PM</h1>
+    <p class="description">CPA Workshop</p>
+  </div>
+
+  <div class="description-item">
+    <h1>2:40 PM - 4:00 PM</h1>
+    <p class="description">Final Presentations</p>
+  </div>
+
+  <div class="description-item">
+    <h1>4:00 PM - 5:00 PM</h1>
+    <p class="description">Closing and Awards Ceremony</p>
+  </div>
                     </div>
                     </div>
 
@@ -219,26 +259,26 @@ class FinalComp extends React.Component {
                     <h1 class="leagueheading">League Information</h1>
                     <h4 id="leaguename">League 1:</h4>
                         <ul>
-                            <li>Killarney</li>
-                            <li>J.N. Burnett - Mycelium</li>
-                            <li>Prince of Wales - Bumble Balm</li>
-                            <li>University Hill</li>
+                            <li>U-Hill - Beyond Leather</li>
+                            <li>Prince of Wales - HiveSeal</li>
+                            <li>Fleetwood Park - Tumble Buddies</li>
+                            <li>Killaney - Sustainable Soy</li>
                         </ul>
 
                     <h4 id="leaguename">League 2:</h4>
                         <ul>
-                            <li>Holy Cross - Scent Sations</li>
-                            <li>Prince of Wales - TerraDome</li>
-                            <li>H.J. Cambie</li>
-                            <li>McMath - Simple Succulents</li>
+                            <li>Notre Dame - Soapify</li>
+                            <li>Killarney - Pouchify</li>
+                            <li>Windermere</li>
+                            <li>Prince of Wales - Coastal Critters</li>
                         </ul>
 
                     <h4 id="leaguename">League 3:</h4>
                         <ul>
-                            <li>Notre Dame - Planet Paint</li>
-                            <li>University Hill - reFila</li>
-                            <li>Holy Cross - Tee-Chainz</li>
-                            <li>Burnaby South - B-Sea Lion</li>
+                            <li>Fleetwood - HiveHugs</li>
+                            <li>Magee</li>
+                            <li>Notre Dame - Al Fresco</li>
+                            <li>U-Hill - Green Flame</li>
                         </ul>
 
                     </div>
@@ -246,7 +286,7 @@ class FinalComp extends React.Component {
                     <h1 class="leagueheading">Judging Rubric</h1>
                     <div class="judging-rubric">
                     <div id="rubriclink">
-                        <a href="https://drive.google.com/file/d/1wJBRjIBb5sazzDiRfp0-zde3bYIlw73m/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1rSmvgkCqDJGGYJ5gde0t0NZ_N1wAIXsA/view?usp=sharing">
                             <img class ="rubricimg" src={FinalCompRubric}></img>
                         </a>
                     </div>
@@ -279,7 +319,7 @@ class FinalComp extends React.Component {
             </div>
         )
 
-        return waitingPage;
+        return livePage;
     }
 }
 

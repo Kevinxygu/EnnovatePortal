@@ -366,20 +366,19 @@ fieldset {
 
 #bluebar {
     width: 7px;
-    height: 860px;
+    height: 600px;
     background-color: #264080;
     border-radius: 7px;
     margin-left: 6px;
     position: absolute;
     z-index: 0;
-
 }
 
 #itinerary {
     margin-top: 50px;
     position: relative;
     height: 400px;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
 }
 
 h1 {
