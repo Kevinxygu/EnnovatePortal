@@ -25,10 +25,10 @@ class Resources extends React.Component {
                     <h2 class="heading">Workshop Slides</h2>
                     <div class="grid">
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1o7tNhIDX7wK8Ac338foKoh7K68BbhI4o/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
-                            <p class="workshop-name">Workshop 1</p>
+                            <a href="https://docs.google.com/presentation/d/1fvbvT-fRLl-Sa6-enCdl_PxQfM0V52fsQMQddcz6UkM/edit?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 1: Intro</p>
                         </div>
-                        <div class="workshop">
+                        {/* <div class="workshop">
                             <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 2</p>
                         </div>
@@ -45,18 +45,18 @@ class Resources extends React.Component {
                         <div class="workshop">
                             <a href="https://drive.google.com/file/d/1sRcg-xJU3jGmY1S4p2mgkfWEF2A-M0Aq/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 5</p>
-                        </div>
+                        </div> */}
                     </div>
 
-                    <h2 class="heading">Summary Sheets</h2>
-                    <a href="https://drive.google.com/file/d/1YFKmnT-HLJRISkwzFySqSlpqt_iCiUr3/view" target="_blank"><img src={SummarySheets} class="program-package"></img></a>
+                    {/* <h2 class="heading">Summary Sheets</h2>
+                    <a href="https://drive.google.com/file/d/1YFKmnT-HLJRISkwzFySqSlpqt_iCiUr3/view" target="_blank"><img src={SummarySheets} class="program-package"></img></a> */}
 
 
                     <h2 class="heading">Program Package</h2>
-                    <a href="https://drive.google.com/file/d/1n9ldHMlfexIGxkY1WiOiWoQxNnsi4v9B/view" target="_blank"><img src={ProgramPackage} class="program-package"></img></a>
+                    <a href="https://drive.google.com/file/d/1DnSlN-a6IfpER8xEExvxhoeA-87lXaTb/view?usp=sharing" target="_blank"><img src={ProgramPackage} class="program-package"></img></a>
 
-                    <h2 class="heading">Grading Rubric</h2>
-                    <a href="https://drive.google.com/file/d/1F6Kv1okCEdiH1qpFKfHGnhp6to85HD1x/view?usp=sharing" target="_blank"><img src={Rubric} class="program-package"></img></a>
+                    {/* <h2 class="heading">Grading Rubric</h2>
+                    <a href="https://drive.google.com/file/d/1F6Kv1okCEdiH1qpFKfHGnhp6to85HD1x/view?usp=sharing" target="_blank"><img src={Rubric} class="program-package"></img></a> */}
                     <h2 class="heading">Previous Projects</h2>
                     <p class="description">Below are selected Ennovate projects from previous years that we saw something special in. Many of these projects were finalists during final competition day, or better yet winners!</p>
                     <p class="description">Click on one to see their project plans!</p>

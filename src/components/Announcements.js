@@ -16,8 +16,8 @@ class Announcements extends React.Component {
                          <div class= "textSide">
                             <div class="announcementTitle">Announcement Portal Open!</div>
                             <div class="descriptionLine">
-                                <div class="announcementAuthor">Kevin Gu | Technology Manager</div>
-                                <div class="announcementDate">Apr 6</div>
+                                <div class="announcementAuthor">Kevin Gu | Enactus VP Tech</div>
+                                <div class="announcementDate">Oct 20</div>
                             </div>
                             <div class="announcementText">The announcement page for the portal is now open! Updated information about competitions and business lessons will be posted here so check often! You may also see a few announcements from your school's PAs so make sure that you check here. Your PAs might be communicating with you through here :))</div>
                         </div>

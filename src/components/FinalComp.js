@@ -324,7 +324,7 @@ class FinalComp extends React.Component {
             </div>
         )
 
-        return livePage;
+        return waitingPage;
     }
 }
 
