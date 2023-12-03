@@ -28,21 +28,21 @@ class Resources extends React.Component {
                             <a href="https://docs.google.com/presentation/d/1fvbvT-fRLl-Sa6-enCdl_PxQfM0V52fsQMQddcz6UkM/edit?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 1: Intro</p>
                         </div>
-                        {/* <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1Q9Gy9b2hFgneOxOqPPMXKROK-Sj9P8Uz/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
-                            <p class="workshop-name">Workshop 2</p>
+                        <div class="workshop">
+                            <a href="https://docs.google.com/presentation/d/1ZKhlvZQonsMwtWbfF7wI7Lc7UMkxStXQdgeXvNbriPM/edit?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 2: CSR + Sustainability</p>
                         </div>
                         <div class="workshop">
-                            <a href="https://drive.google.com/file/d/11waLtu69OHVIHf4laKraM-Idivqip7UL/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
-                            <p class="workshop-name">Workshop 3</p>
+                            <a href="https://docs.google.com/presentation/d/1NUrJmMgdlG2shloru4hmcHFqwxL-bADtvD30Dp1HvWQ/edit?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 3: Marketing</p>
+                        </div>
+                        
+                        <div class="workshop">
+                            <a href="https://docs.google.com/presentation/d/1I1EpwDJKxuPcbFHuCKR4tkCsQPAEX-hgvc98q1joH7Y/edit?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
+                            <p class="workshop-name">Workshop 4: Finances</p>
                         </div>
 
-                        <div class="workshop">
-                            <a href="https://drive.google.com/file/d/1MOgs4ZmsiM11KxhkVe5AbWNg4KdC_SAn/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
-                            <p class="workshop-name">Workshop 4</p>
-                        </div>
-
-                        <div class="workshop">
+                        {/*<div class="workshop">
                             <a href="https://drive.google.com/file/d/1sRcg-xJU3jGmY1S4p2mgkfWEF2A-M0Aq/view?usp=sharing" target="_blank"><img class="workshop-img" src={WorkshopBackground}></img></a>
                             <p class="workshop-name">Workshop 5</p>
                         </div> */}
